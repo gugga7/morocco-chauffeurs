@@ -13,7 +13,7 @@ export async function Testimonials() {
   const featured = testimonials[0];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-sand">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow={t("guestExperiences")}

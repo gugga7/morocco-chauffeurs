@@ -6,7 +6,7 @@ export async function CTASection() {
   const t = await getTranslations("sections");
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-night via-night/95 to-night py-24">
+    <section className="relative overflow-hidden bg-gradient-to-br from-night to-[#2d1b3d] py-24">
       {/* Decorative gold accent */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute -right-40 -top-40 h-80 w-80 rounded-full bg-gold" />

@@ -12,15 +12,15 @@ export async function TrustBar() {
   ];
 
   return (
-    <section className="bg-night py-8">
+    <section className="bg-night py-10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           {stats.map((stat) => (
             <div key={stat.label} className="flex items-center justify-center gap-3 text-center">
-              <stat.icon className="h-6 w-6 text-gold shrink-0" />
+              <stat.icon className="h-7 w-7 text-gold shrink-0" />
               <div>
-                <p className="text-2xl font-bold text-white">{stat.value}</p>
-                <p className="text-xs text-white/60 tracking-wide uppercase">
+                <p className="text-3xl font-bold text-white">{stat.value}</p>
+                <p className="text-sm text-white/70 tracking-wide uppercase mt-0.5">
                   {stat.label}
                 </p>
               </div>

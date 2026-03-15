@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getLocale, getTranslations } from "next-intl/server";
+import { Instagram, Facebook, MessageCircle } from "lucide-react";
 
 const featuredCities = [
   "marrakech",
@@ -17,6 +18,12 @@ const featuredServices = [
   "multi-day-tours",
 ] as const;
 
+const socialLinks = [
+  { icon: Instagram, href: "#", label: "Instagram" },
+  { icon: Facebook, href: "#", label: "Facebook" },
+  { icon: MessageCircle, href: "#", label: "WhatsApp" },
+];
+
 export async function Footer() {
   const locale = await getLocale();
   const t = await getTranslations("footer");
@@ -24,7 +31,7 @@ export async function Footer() {
   const tCities = await getTranslations("cities");
 
   return (
-    <footer className="bg-night text-white/70">
+    <footer className="bg-[#111122] text-white/70">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
@@ -38,6 +45,18 @@ export async function Footer() {
             <p className="mt-4 text-sm leading-relaxed">
               {t("description")}
             </p>
+            <div className="mt-6 flex items-center gap-4">
+              {socialLinks.map(({ icon: Icon, href, label }) => (
+                <a
+                  key={label}
+                  href={href}
+                  aria-label={label}
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-white/50 hover:text-gold hover:border-gold/50 transition-colors"
+                >
+                  <Icon className="h-5 w-5" />
+                </a>
+              ))}
+            </div>
           </div>
 
           {/* Destinations */}
