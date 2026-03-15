@@ -8,7 +8,7 @@ export async function Hero() {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/images/hero-morocco.jpg')" }}
+        style={{ backgroundImage: "url('/images/hero/homepage-hero.svg')" }}
       />
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-night/60" />
