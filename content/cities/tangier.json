@@ -1,0 +1,11 @@
+{
+  "slug": "tangier",
+  "tier": 1,
+  "airport": { "code": "TNG", "distanceKm": 12, "driveMinutes": [15, 25] },
+  "landmarks": ["kasbah-museum", "cap-spartel", "hercules-cave", "grand-socco", "tangier-airport"],
+  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation", "vip-concierge"],
+  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter", "minibus", "coach-bus"],
+  "routesFrom": ["tangier-to-chefchaouen", "tangier-to-fez"],
+  "faqKeys": ["airport-distance", "ferry-transfers", "english-speaking", "day-trips"],
+  "heroImage": "/images/cities/tangier-hero.jpg"
+}

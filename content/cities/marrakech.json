@@ -1,0 +1,11 @@
+{
+  "slug": "marrakech",
+  "tier": 1,
+  "airport": { "code": "RAK", "distanceKm": 6, "driveMinutes": [15, 20] },
+  "landmarks": ["jemaa-el-fnaa", "majorelle-garden", "bahia-palace", "menara-airport"],
+  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation", "vip-concierge"],
+  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter", "minibus", "coach-bus"],
+  "routesFrom": ["marrakech-to-essaouira", "marrakech-to-merzouga", "marrakech-to-ouarzazate", "marrakech-to-casablanca-airport"],
+  "faqKeys": ["airport-distance", "best-day-trips", "english-speaking", "desert-tour"],
+  "heroImage": "/images/cities/marrakech-hero.jpg"
+}

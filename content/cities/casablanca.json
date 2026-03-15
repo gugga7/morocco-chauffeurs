@@ -1,0 +1,11 @@
+{
+  "slug": "casablanca",
+  "tier": 1,
+  "airport": { "code": "CMN", "distanceKm": 30, "driveMinutes": [40, 60] },
+  "landmarks": ["hassan-ii-mosque", "corniche", "old-medina", "morocco-mall", "mohammed-v-airport"],
+  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation", "vip-concierge"],
+  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter", "minibus", "coach-bus"],
+  "routesFrom": ["casablanca-to-marrakech", "casablanca-to-rabat", "marrakech-to-casablanca-airport"],
+  "faqKeys": ["airport-distance", "city-tours", "english-speaking", "business-travel"],
+  "heroImage": "/images/cities/casablanca-hero.jpg"
+}

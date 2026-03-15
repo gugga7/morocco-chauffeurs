@@ -1,0 +1,11 @@
+{
+  "slug": "meknes",
+  "tier": 3,
+  "airport": null,
+  "landmarks": ["bab-mansour", "mausoleum-moulay-ismail", "heri-es-souani"],
+  "availableServices": ["hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation"],
+  "availableVehicles": ["sedan", "suv", "mercedes-v-class", "sprinter"],
+  "routesFrom": [],
+  "faqKeys": ["best-time-to-visit", "language-spoken", "what-to-see"],
+  "heroImage": "/images/cities/meknes-hero.jpg"
+}

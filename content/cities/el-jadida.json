@@ -1,0 +1,11 @@
+{
+  "slug": "el-jadida",
+  "tier": 3,
+  "airport": null,
+  "landmarks": ["portuguese-cistern", "el-jadida-ramparts", "sidi-bouzid-beach"],
+  "availableServices": ["hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation"],
+  "availableVehicles": ["sedan", "suv", "mercedes-v-class", "sprinter"],
+  "routesFrom": [],
+  "faqKeys": ["best-time-to-visit", "portuguese-heritage", "what-to-see"],
+  "heroImage": "/images/cities/el-jadida-hero.jpg"
+}
