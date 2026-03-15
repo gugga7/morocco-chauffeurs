@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getLocale, getTranslations } from "next-intl/server";
 import { LanguageSwitcher } from "./language-switcher";
 import { MobileNav } from "./mobile-nav";
@@ -21,9 +22,17 @@ export async function Header() {
         {/* Logo */}
         <Link
           href={`/${locale}`}
-          className="font-serif text-lg font-bold tracking-wider text-white"
+          className="flex items-center shrink-0"
         >
-          MOROCCO CHAUFFEURS
+          <Image
+            src="/logo.svg"
+            alt="Morocco Chauffeurs"
+            width={180}
+            height={45}
+            className="h-10 w-auto"
+            unoptimized
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}
