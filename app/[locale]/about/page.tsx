@@ -9,6 +9,9 @@ import {
   BadgeDollarSign,
   MapPinned,
   ShieldCheck,
+  Globe,
+  Award,
+  Heart,
 } from "lucide-react";
 
 const reasons = [
@@ -18,6 +21,12 @@ const reasons = [
   { key: "reason4", icon: BadgeDollarSign },
   { key: "reason5", icon: MapPinned },
   { key: "reason6", icon: ShieldCheck },
+];
+
+const trustStats = [
+  { key: "stat1", icon: Globe },
+  { key: "stat2", icon: Award },
+  { key: "stat3", icon: Heart },
 ];
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -34,22 +43,22 @@ export default async function AboutPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-night py-20">
+      <section className="bg-night py-16 sm:py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <p className="mb-3 text-xs font-semibold tracking-[0.25em] text-gold uppercase">
             {t("eyebrow")}
           </p>
-          <h1 className="font-serif text-4xl font-bold text-white sm:text-5xl">
+          <h1 className="font-serif text-3xl font-bold text-white sm:text-4xl md:text-5xl">
             {t("title")}
           </h1>
-          <p className="mx-auto mt-4 max-w-xl text-lg text-white/70">
+          <p className="mx-auto mt-4 max-w-xl text-base sm:text-lg text-white/70">
             {t("intro")}
           </p>
         </div>
       </section>
 
       {/* Story */}
-      <section className="py-20 bg-sand">
+      <section className="py-16 sm:py-20 bg-sand">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 space-y-5">
           <p className="text-body leading-relaxed">{t("story1")}</p>
           <p className="text-body leading-relaxed">{t("story2")}</p>
@@ -58,22 +67,22 @@ export default async function AboutPage() {
       </section>
 
       {/* Mission */}
-      <section className="py-20 bg-white">
+      <section className="py-16 sm:py-20 bg-white">
         <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
           <p className="mb-3 text-xs font-semibold tracking-[0.2em] uppercase text-gold">
             {t("missionEyebrow")}
           </p>
-          <h2 className="font-serif text-3xl font-bold text-night md:text-4xl">
+          <h2 className="font-serif text-2xl font-bold text-night sm:text-3xl md:text-4xl">
             {t("missionTitle")}
           </h2>
-          <p className="mx-auto mt-6 max-w-xl text-lg text-body leading-relaxed">
+          <p className="mx-auto mt-6 max-w-xl text-base sm:text-lg text-body leading-relaxed">
             {t("mission")}
           </p>
         </div>
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 bg-sand">
+      <section className="py-16 sm:py-20 bg-sand">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeader
             eyebrow={t("whyChooseUs")}
@@ -83,7 +92,7 @@ export default async function AboutPage() {
             {reasons.map(({ key, icon: Icon }) => (
               <div
                 key={key}
-                className="rounded-2xl bg-white p-8 shadow-sm"
+                className="rounded-2xl bg-white p-6 sm:p-8 shadow-sm"
               >
                 <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gold/10">
                   <Icon className="h-6 w-6 text-gold" />
@@ -94,6 +103,31 @@ export default async function AboutPage() {
                 <p className="text-sm text-body leading-relaxed">
                   {t(key)}
                 </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Trust / By the Numbers */}
+      <section className="py-16 sm:py-20 bg-night">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-10 text-center">
+            <p className="mb-3 text-xs font-semibold tracking-[0.2em] uppercase text-gold/80">
+              {t("trustEyebrow")}
+            </p>
+            <h2 className="font-serif text-2xl font-bold text-white sm:text-3xl md:text-4xl">
+              {t("trustTitle")}
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
+            {trustStats.map(({ key, icon: Icon }) => (
+              <div key={key} className="text-center">
+                <div className="mx-auto mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full border border-gold/20 bg-gold/10">
+                  <Icon className="h-7 w-7 text-gold" />
+                </div>
+                <p className="text-3xl font-bold text-white">{t(`${key}Value`)}</p>
+                <p className="mt-1 text-sm text-white/60">{t(`${key}Label`)}</p>
               </div>
             ))}
           </div>
