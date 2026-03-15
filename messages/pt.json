@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "title": "Morocco Chauffeurs — Serviço de Motorista de Luxo em Marrocos",
+    "description": "Serviços de motorista premium em 13 destinos marroquinos. Transferências do aeroporto, passeios privados e experiências de viagem sob medida."
+  },
+  "nav": {
+    "destinations": "Destinos",
+    "services": "Serviços",
+    "fleet": "Frota",
+    "about": "Sobre",
+    "contact": "Contato",
+    "bookNow": "Reservar",
+    "home": "Início"
+  },
+  "hero": {
+    "eyebrow": "LUXURY CHAUFFEUR SERVICE IN MOROCCO",
+    "title": "Your Journey Through Morocco, Elevated",
+    "subtitle": "Premium chauffeur services across 13 destinations. Airport transfers, private tours, and bespoke travel experiences."
+  },
+  "trustBar": {
+    "destinations": "Destinations",
+    "availability": "Availability",
+    "serviceTypes": "Service Types",
+    "rating": "Rated Service"
+  },
+  "sections": {
+    "exploreMorocco": "EXPLORE MOROCCO",
+    "ourDestinations": "Our Destinations",
+    "viewAllDestinations": "View All 13 Destinations",
+    "tailoredToYou": "TAILORED TO YOU",
+    "ourServices": "Our Services",
+    "travelInStyle": "TRAVEL IN STYLE",
+    "ourFleet": "Our Fleet",
+    "viewDetails": "VIEW DETAILS",
+    "book": "BOOK",
+    "popularJourneys": "POPULAR JOURNEYS",
+    "mostRequestedRoutes": "Most Requested Routes",
+    "guestExperiences": "GUEST EXPERIENCES",
+    "whatClientsSay": "What Our Clients Say",
+    "readyToExperience": "Ready to Experience Morocco?",
+    "bookYourChauffeur": "Book Your Chauffeur",
+    "bookInMinutes": "Book your private chauffeur in minutes"
+  },
+  "booking": {
+    "title": "Book Your Chauffeur",
+    "poweredBy": "Powered by TransMov",
+    "comingSoon": "Booking form coming soon"
+  },
+  "footer": {
+    "description": "Premium chauffeur services across Morocco. Airport transfers, private tours, and bespoke travel experiences.",
+    "destinations": "Destinations",
+    "services": "Services",
+    "contact": "Contact",
+    "copyright": "© 2026 Morocco Chauffeurs. All rights reserved.",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "cookies": "Cookies"
+  },
+  "notFound": {
+    "title": "Lost in the Medina?",
+    "description": "The page you're looking for doesn't exist. Let us guide you back.",
+    "goHome": "Return Home",
+    "viewDestinations": "View Destinations"
+  }
+}
