@@ -36,7 +36,7 @@ export async function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden lg:flex items-center gap-6">
           {navLinks.map(({ key, href }) => (
             <Link
               key={key}

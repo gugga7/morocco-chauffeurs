@@ -103,8 +103,16 @@ export async function Footer() {
               {t("contact")}
             </h4>
             <ul className="space-y-2 text-sm">
-              <li>info@moroccochauffeurs.com</li>
-              <li>+212 600 000 000</li>
+              <li>
+                <a href="mailto:info@moroccochauffeurs.com" className="hover:text-gold transition-colors">
+                  info@moroccochauffeurs.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:+212600000000" className="hover:text-gold transition-colors">
+                  +212 600 000 000
+                </a>
+              </li>
             </ul>
           </div>
         </div>

@@ -19,7 +19,7 @@ export function MobileNav() {
   const t = useTranslations("nav");
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <button
         onClick={() => setOpen(!open)}
         className="text-white p-2 cursor-pointer"
