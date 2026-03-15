@@ -1059,13 +1059,13 @@
       }
     },
     "luxury-suv": {
-      "name": "Range Rover / Mercedes GLS",
+      "name": "Range Rover",
       "class": "SUV de Luxe",
       "shortDescription": "Luxe suprême avec présence imposante pour jusqu'à 4 passagers.",
-      "description": "Le SUV de luxe représente la fusion ultime d'opulence et de capacité. Un Range Rover ou Mercedes GLS offre un espace intérieur expansif, les plus beaux matériaux et une formidable capacité tout-terrain.",
+      "description": "Le SUV de luxe représente la fusion ultime d'opulence et de capacité. Un Range Rover offre un espace intérieur expansif, les plus beaux matériaux et une formidable capacité tout-terrain.",
       "meta": {
         "title": "SUV de Luxe — Range Rover Service de Chauffeur au Maroc",
-        "description": "Voyagez au Maroc dans un Range Rover ou Mercedes GLS avec chauffeur privé. SUV de luxe pour circuits désertiques, transferts montagne et transport VIP."
+        "description": "Voyagez au Maroc dans un Range Rover avec chauffeur privé. SUV de luxe pour circuits désertiques, transferts montagne et transport VIP."
       },
       "features": {
         "premium-leather": "Cuir Nappa Premium",

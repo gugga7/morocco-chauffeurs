@@ -1059,13 +1059,13 @@
       }
     },
     "luxury-suv": {
-      "name": "Range Rover / Mercedes GLS",
+      "name": "Range Rover",
       "class": "Luxury SUV",
       "shortDescription": "Supreme luxury with commanding presence for up to 4 passengers.",
-      "description": "The luxury SUV represents the ultimate fusion of opulence and capability. A Range Rover or Mercedes GLS provides expansive interior space, the finest materials, and formidable off-road ability. Ideal for desert approaches, mountain journeys, and any occasion where presence and comfort must coexist.",
+      "description": "The luxury SUV represents the ultimate fusion of opulence and capability. A Range Rover provides expansive interior space, the finest materials, and formidable off-road ability. Ideal for desert approaches, mountain journeys, and any occasion where presence and comfort must coexist.",
       "meta": {
         "title": "Luxury SUV — Range Rover Chauffeur Service in Morocco",
-        "description": "Travel Morocco in a Range Rover or Mercedes GLS with private chauffeur. Luxury SUV for desert tours, mountain transfers, and VIP transportation."
+        "description": "Travel Morocco in a Range Rover with private chauffeur. Luxury SUV for desert tours, mountain transfers, and VIP transportation."
       },
       "features": {
         "premium-leather": "Premium Nappa Leather",
