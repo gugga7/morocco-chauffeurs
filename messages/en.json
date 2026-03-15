@@ -1111,6 +1111,184 @@
       }
     }
   },
+  "servicePage": {
+    "heroTitle": "{service}",
+    "howItWorks": "HOW IT WORKS",
+    "howItWorksTitle": "Three Simple Steps",
+    "step": "Step {number}",
+    "availableVehicles": "Available Vehicles",
+    "forThisService": "FOR THIS SERVICE",
+    "citiesAvailable": "Cities Where Available",
+    "bookThisService": "Book {service}",
+    "frequentlyAsked": "FREQUENTLY ASKED",
+    "faqTitle": "{service} FAQ",
+    "viewVehicle": "View Vehicle",
+    "passengers": "{count} passengers",
+    "bookNow": "Book Now"
+  },
+  "fleetPage": {
+    "heroTitle": "{vehicle}",
+    "vehicleClass": "{vehicleClass}",
+    "specifications": "SPECIFICATIONS",
+    "vehicleSpecs": "Vehicle Specifications",
+    "passengers": "Passengers",
+    "luggage": "Luggage Capacity",
+    "features": "Premium Features",
+    "availableServices": "Available Services",
+    "forThisVehicle": "FOR THIS VEHICLE",
+    "bookThisVehicle": "Book the {vehicle}",
+    "otherVehicles": "OTHER OPTIONS",
+    "exploreOurFleet": "Explore Our Fleet",
+    "pieces": "{count} pieces",
+    "seating": "{count} seats"
+  },
+  "routePage": {
+    "heroTitle": "{origin} to {destination}",
+    "routeDetails": "ROUTE DETAILS",
+    "distance": "Distance",
+    "duration": "Duration",
+    "km": "{count} km",
+    "hours": "{hours}h {minutes}m",
+    "highlights": "HIGHLIGHTS",
+    "routeHighlights": "Route Highlights",
+    "suggestedStops": "ALONG THE WAY",
+    "suggestedStopsTitle": "Suggested Stops",
+    "recommendedVehicles": "RECOMMENDED",
+    "recommendedVehiclesTitle": "Recommended Vehicles",
+    "relatedRoutes": "EXPLORE MORE",
+    "relatedRoutesTitle": "Related Routes",
+    "frequentlyAsked": "FREQUENTLY ASKED",
+    "faqTitle": "{origin} to {destination} FAQ",
+    "bookThisRoute": "Book {origin} to {destination}"
+  },
+  "reservation": {
+    "eyebrow": "BOOK YOUR JOURNEY",
+    "title": "Make a Reservation",
+    "subtitle": "Select your service, vehicle, and dates to begin your premium Moroccan travel experience."
+  },
+  "about": {
+    "eyebrow": "OUR STORY",
+    "title": "About Morocco Chauffeurs",
+    "intro": "Morocco Chauffeurs was founded with a singular vision: to offer travellers the most refined, reliable, and memorable private transportation experience across the Kingdom of Morocco.",
+    "story1": "From our beginnings serving discerning travellers in Marrakech, we have grown into Morocco's premier chauffeur service, operating across 13 destinations with a fleet of premium vehicles and a team of professional, multilingual drivers.",
+    "story2": "We believe that transportation is not merely a means of getting from one place to another — it is an integral part of the travel experience. Every journey with us is designed to be comfortable, safe, and enriching, whether you are transferring from the airport, touring ancient medinas, or crossing the Atlas Mountains to the Sahara.",
+    "story3": "Our chauffeurs are more than drivers. They are ambassadors of Moroccan hospitality, trained to the highest standards of service, knowledgeable about local culture and history, and committed to making every guest feel welcomed and valued.",
+    "missionEyebrow": "OUR MISSION",
+    "missionTitle": "Elevating Every Journey",
+    "mission": "To provide travellers with a seamless, luxurious, and culturally enriching private transportation experience that showcases the very best of Morocco.",
+    "whyChooseUs": "WHY CHOOSE US",
+    "whyChooseUsTitle": "The Morocco Chauffeurs Difference",
+    "reason1Title": "Professional Chauffeurs",
+    "reason1": "Multilingual, trained, and deeply knowledgeable about Morocco's roads, culture, and hidden gems.",
+    "reason2Title": "Premium Fleet",
+    "reason2": "From executive sedans to luxury coaches, every vehicle is meticulously maintained and equipped with modern amenities.",
+    "reason3Title": "24/7 Availability",
+    "reason3": "Whether it is a dawn airport pickup or a midnight return transfer, we are available around the clock.",
+    "reason4Title": "Transparent Pricing",
+    "reason4": "All-inclusive rates with no hidden fees. Tolls, fuel, and driver gratuity are included in every quote.",
+    "reason5Title": "Local Expertise",
+    "reason5": "Deep knowledge of every destination, route, and attraction across Morocco's diverse landscape.",
+    "reason6Title": "Safety First",
+    "reason6": "Rigorous vehicle maintenance, professional driving standards, and comprehensive insurance on every journey."
+  },
+  "contact": {
+    "eyebrow": "GET IN TOUCH",
+    "title": "Contact Us",
+    "subtitle": "We are here to assist you with bookings, enquiries, and bespoke travel arrangements across Morocco.",
+    "addressLabel": "Address",
+    "address": "Avenue Mohammed V, Guéliz, Marrakech, Morocco",
+    "phoneLabel": "Phone",
+    "phone": "+212 5 24 00 00 00",
+    "emailLabel": "Email",
+    "email": "info@moroccochaffeurs.com",
+    "hoursLabel": "Operating Hours",
+    "hours": "24 hours, 7 days a week",
+    "followUs": "Follow Us",
+    "readyToBook": "Ready to Book Your Journey?",
+    "readyToBookDescription": "Visit our reservation page to book your private chauffeur service in minutes."
+  },
+  "faq": {
+    "eyebrow": "FREQUENTLY ASKED QUESTIONS",
+    "title": "Everything You Need to Know",
+    "items": {
+      "q1": {
+        "question": "How do I book a chauffeur service?",
+        "answer": "You can book through our website by visiting the reservation page, or contact us directly by phone or email. We recommend booking at least 24 hours in advance, though we accommodate same-day requests whenever possible."
+      },
+      "q2": {
+        "question": "What vehicles are available?",
+        "answer": "Our fleet ranges from executive sedans such as the Mercedes E-Class to full-size coaches for groups of up to 45. We also offer luxury sedans, SUVs, the Mercedes V-Class for families, and VIP Sprinters for medium groups."
+      },
+      "q3": {
+        "question": "Do your chauffeurs speak English?",
+        "answer": "Yes, all our chauffeurs are fluent in English and French. Many also speak Arabic, Spanish, German, and other European languages, depending on the region they serve."
+      },
+      "q4": {
+        "question": "Are prices all-inclusive?",
+        "answer": "Yes. Our quoted prices include the vehicle, chauffeur, fuel, tolls, parking, and VAT. There are no hidden fees. The only optional extra is a gratuity for your chauffeur, which is at your discretion."
+      },
+      "q5": {
+        "question": "What is your cancellation policy?",
+        "answer": "Standard transfers can be cancelled free of charge up to 24 hours before the scheduled pickup. Multi-day tours have a 72-hour cancellation window. We always work with clients to find a fair solution if plans change unexpectedly."
+      },
+      "q6": {
+        "question": "Do you provide child seats?",
+        "answer": "Yes, we provide child seats and booster seats at no additional charge. Please specify the ages of children at the time of booking so we can fit the appropriate seat in your vehicle."
+      },
+      "q7": {
+        "question": "Can I modify my booking after confirmation?",
+        "answer": "Yes, modifications to pickup times, locations, and routes can usually be accommodated at no extra charge, provided you notify us at least 12 hours in advance. Vehicle upgrades are subject to availability."
+      },
+      "q8": {
+        "question": "What happens if my flight is delayed?",
+        "answer": "We track all flights in real time. If your arrival is delayed, your chauffeur adjusts automatically at no extra charge. There is no need to notify us — we will be waiting when you land."
+      },
+      "q9": {
+        "question": "Do you operate in all Moroccan cities?",
+        "answer": "We serve 13 destinations across Morocco, including Marrakech, Casablanca, Fez, Tangier, Rabat, Agadir, Essaouira, Chefchaouen, Merzouga, Meknes, Ouarzazate, Ifrane, and El Jadida. We also provide transfers between any of these cities."
+      },
+      "q10": {
+        "question": "How do I pay?",
+        "answer": "We accept major credit cards, bank transfers, and cash payment in Moroccan Dirhams or Euros. Payment is due upon completion of the service for standard transfers. Multi-day tours require a deposit at booking."
+      }
+    }
+  },
+  "blog": {
+    "eyebrow": "OUR JOURNAL",
+    "title": "Morocco Travel Blog",
+    "comingSoon": "Coming Soon",
+    "comingSoonDescription": "We are preparing insightful travel guides, route recommendations, and cultural stories to help you plan your perfect Moroccan journey. Check back soon."
+  },
+  "terms": {
+    "eyebrow": "LEGAL",
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: March 2026",
+    "serviceAgreementTitle": "Service Agreement",
+    "serviceAgreement": "By booking a service with Morocco Chauffeurs, you agree to these terms and conditions. Our services include airport transfers, city-to-city transfers, hourly chauffeur hire, multi-day tours, event transportation, and VIP concierge services. All bookings are subject to vehicle and chauffeur availability.",
+    "bookingTitle": "Booking & Cancellation",
+    "booking": "Bookings are confirmed upon receipt of written confirmation from Morocco Chauffeurs. Standard transfers may be cancelled free of charge up to 24 hours before the scheduled pickup. Multi-day tours require 72 hours notice for free cancellation. Late cancellations may incur charges equivalent to the first day of service.",
+    "liabilityTitle": "Liability",
+    "liability": "Morocco Chauffeurs maintains comprehensive insurance for all vehicles and passengers. Our liability is limited to the value of the booked service. We are not responsible for delays caused by traffic, weather, road closures, or other circumstances beyond our control. Passengers travel at their own risk and are advised to maintain personal travel insurance.",
+    "paymentTitle": "Payment",
+    "payment": "Payment is due upon completion of service for standard transfers. Multi-day tours and event transportation require a 50% deposit at booking, with the balance due on the first day of service. We accept major credit cards, bank transfers, and cash.",
+    "conductTitle": "Passenger Conduct",
+    "conduct": "Passengers are expected to treat vehicles and chauffeurs with respect. Smoking is not permitted in any vehicle. Any damage to vehicles caused by passenger negligence will be charged at repair cost. The chauffeur reserves the right to terminate a journey if passenger conduct endangers safety."
+  },
+  "privacy": {
+    "eyebrow": "LEGAL",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "dataCollectionTitle": "Data Collection",
+    "dataCollection": "We collect personal information necessary to provide our chauffeur services, including your name, contact details, travel itinerary, flight information, and payment details. This information is collected when you make a booking, contact us, or use our website.",
+    "cookiesTitle": "Cookies",
+    "cookies": "Our website uses essential cookies to ensure proper functionality and analytics cookies to understand how visitors use our site. You can control cookie preferences through your browser settings. We do not use advertising cookies or share cookie data with third parties.",
+    "yourRightsTitle": "Your Rights",
+    "yourRights": "Under applicable data protection laws, you have the right to access, correct, or delete your personal data. You may also request a copy of all data we hold about you. To exercise these rights, contact us at privacy@moroccochaffeurs.com.",
+    "dataSecurityTitle": "Data Security",
+    "dataSecurity": "We implement appropriate technical and organisational measures to protect your personal data against unauthorised access, alteration, disclosure, or destruction. Payment information is processed through secure, PCI-compliant payment processors.",
+    "dataRetentionTitle": "Data Retention",
+    "dataRetention": "We retain booking records and personal data for a period of 3 years after the last service provided, in accordance with legal and regulatory requirements. After this period, data is securely deleted."
+  },
   "testimonials": {
     "sarah-london": {
       "text": "From the moment our chauffeur greeted us at Marrakech airport, we knew we were in exceptional hands. The vehicle was immaculate, the driving was confident yet smooth, and our driver's knowledge of the city and surrounding areas elevated our entire trip. The desert transfer to Merzouga was particularly outstanding — he knew exactly where to stop for the best views. We would not travel Morocco any other way.",
