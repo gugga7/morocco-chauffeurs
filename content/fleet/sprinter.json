@@ -1,0 +1,9 @@
+{
+  "slug": "sprinter",
+  "category": "sprinter",
+  "capacity": 12,
+  "luggageCapacity": 12,
+  "features": ["reclining-seats", "climate-control", "wifi", "usb-charging", "overhead-storage"],
+  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation"],
+  "heroImage": "/images/fleet/sprinter-hero.jpg"
+}

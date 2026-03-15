@@ -1,0 +1,11 @@
+{
+  "slug": "marrakech-to-merzouga",
+  "origin": "marrakech",
+  "destination": "merzouga",
+  "distanceKm": 560,
+  "durationMinutes": 480,
+  "highlights": ["tizi-n-tichka-pass", "ait-benhaddou-kasbah", "dades-valley-scenery"],
+  "suggestedStops": ["ait-benhaddou-visit", "ouarzazate-lunch"],
+  "recommendedVehicles": ["suv", "luxury-suv", "sedan", "mercedes-v-class"],
+  "faqKeys": ["mountain-passes", "overnight-recommended", "desert-arrival-time"]
+}

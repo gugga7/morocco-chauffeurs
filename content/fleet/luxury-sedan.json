@@ -1,0 +1,9 @@
+{
+  "slug": "luxury-sedan",
+  "category": "luxury-sedan",
+  "capacity": 3,
+  "luggageCapacity": 3,
+  "features": ["premium-leather", "rear-climate-zone", "wifi", "champagne-service", "privacy-partition"],
+  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation", "vip-concierge"],
+  "heroImage": "/images/fleet/luxury-sedan-hero.jpg"
+}

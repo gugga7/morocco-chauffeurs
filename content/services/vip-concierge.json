@@ -1,0 +1,8 @@
+{
+  "slug": "vip-concierge",
+  "icon": "Crown",
+  "availableCities": ["marrakech", "casablanca", "fez", "tangier", "rabat", "agadir", "essaouira", "chefchaouen", "merzouga"],
+  "availableVehicles": ["luxury-sedan", "luxury-suv", "mercedes-v-class", "sprinter"],
+  "faqKeys": ["concierge-scope", "24-hour-availability", "reservation-assistance"],
+  "heroImage": "/images/services/vip-concierge-hero.jpg"
+}

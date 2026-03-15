@@ -1,0 +1,9 @@
+{
+  "slug": "sedan",
+  "category": "sedan",
+  "capacity": 3,
+  "luggageCapacity": 3,
+  "features": ["leather-seats", "climate-control", "wifi", "bottled-water", "phone-charger"],
+  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation"],
+  "heroImage": "/images/fleet/sedan-hero.jpg"
+}

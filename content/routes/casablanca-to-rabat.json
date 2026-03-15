@@ -1,0 +1,11 @@
+{
+  "slug": "casablanca-to-rabat",
+  "origin": "casablanca",
+  "destination": "rabat",
+  "distanceKm": 90,
+  "durationMinutes": 60,
+  "highlights": ["coastal-highway", "atlantic-ocean-views", "capital-city-arrival"],
+  "suggestedStops": ["mohammedia-seafront", "skirat-beach"],
+  "recommendedVehicles": ["sedan", "luxury-sedan", "suv", "mercedes-v-class"],
+  "faqKeys": ["highway-tolls", "rush-hour-timing", "round-trip-option"]
+}

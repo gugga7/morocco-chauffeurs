@@ -1,0 +1,11 @@
+{
+  "slug": "tangier-to-chefchaouen",
+  "origin": "tangier",
+  "destination": "chefchaouen",
+  "distanceKm": 115,
+  "durationMinutes": 120,
+  "highlights": ["rif-mountain-scenery", "rural-moroccan-villages", "blue-city-approach"],
+  "suggestedStops": ["tetouan-medina", "oued-laou-viewpoint"],
+  "recommendedVehicles": ["sedan", "suv", "luxury-sedan", "mercedes-v-class"],
+  "faqKeys": ["mountain-road-safety", "best-season", "return-options"]
+}

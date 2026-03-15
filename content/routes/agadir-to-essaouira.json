@@ -1,0 +1,11 @@
+{
+  "slug": "agadir-to-essaouira",
+  "origin": "agadir",
+  "destination": "essaouira",
+  "distanceKm": 175,
+  "durationMinutes": 150,
+  "highlights": ["coastal-road-scenery", "argan-tree-goats", "fishing-villages"],
+  "suggestedStops": ["taghazout-beach", "argan-cooperative"],
+  "recommendedVehicles": ["sedan", "suv", "luxury-sedan", "mercedes-v-class"],
+  "faqKeys": ["coastal-road-conditions", "photo-opportunities", "return-same-day"]
+}

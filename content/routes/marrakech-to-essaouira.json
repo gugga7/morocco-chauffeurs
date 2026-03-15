@@ -1,0 +1,11 @@
+{
+  "slug": "marrakech-to-essaouira",
+  "origin": "marrakech",
+  "destination": "essaouira",
+  "distanceKm": 175,
+  "durationMinutes": 150,
+  "highlights": ["argan-oil-cooperatives", "atlantic-coast-views", "essaouira-medina-arrival"],
+  "suggestedStops": ["argan-forest-stop", "sidi-kaouki-beach"],
+  "recommendedVehicles": ["sedan", "suv", "luxury-sedan", "mercedes-v-class"],
+  "faqKeys": ["road-conditions", "scenic-stops", "return-same-day"]
+}

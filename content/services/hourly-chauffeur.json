@@ -1,0 +1,8 @@
+{
+  "slug": "hourly-chauffeur",
+  "icon": "Clock",
+  "availableCities": ["marrakech", "casablanca", "fez", "tangier", "rabat", "agadir", "essaouira", "chefchaouen", "merzouga", "meknes", "ouarzazate", "ifrane", "el-jadida"],
+  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter", "minibus", "coach-bus"],
+  "faqKeys": ["minimum-hours", "overtime-policy", "chauffeur-language"],
+  "heroImage": "/images/services/hourly-chauffeur-hero.jpg"
+}

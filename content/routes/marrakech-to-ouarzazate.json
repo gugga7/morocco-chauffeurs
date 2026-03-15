@@ -1,0 +1,11 @@
+{
+  "slug": "marrakech-to-ouarzazate",
+  "origin": "marrakech",
+  "destination": "ouarzazate",
+  "distanceKm": 200,
+  "durationMinutes": 240,
+  "highlights": ["tizi-n-tichka-pass", "high-atlas-panoramas", "ait-benhaddou-kasbah"],
+  "suggestedStops": ["tichka-summit-viewpoint", "ait-benhaddou-visit"],
+  "recommendedVehicles": ["suv", "luxury-suv", "sedan", "mercedes-v-class"],
+  "faqKeys": ["pass-altitude", "winter-conditions", "film-studio-stop"]
+}

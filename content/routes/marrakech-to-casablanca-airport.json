@@ -1,0 +1,11 @@
+{
+  "slug": "marrakech-to-casablanca-airport",
+  "origin": "marrakech",
+  "destination": "casablanca",
+  "distanceKm": 220,
+  "durationMinutes": 150,
+  "highlights": ["express-highway", "comfortable-transfer", "airport-drop-off"],
+  "suggestedStops": ["settat-rest-area", "berrechid-services"],
+  "recommendedVehicles": ["sedan", "luxury-sedan", "suv", "mercedes-v-class"],
+  "faqKeys": ["flight-monitoring", "early-morning-pickup", "luggage-assistance"]
+}

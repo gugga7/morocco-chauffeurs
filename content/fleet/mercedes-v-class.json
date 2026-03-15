@@ -1,0 +1,9 @@
+{
+  "slug": "mercedes-v-class",
+  "category": "van",
+  "capacity": 6,
+  "luggageCapacity": 6,
+  "features": ["leather-seats", "captain-chairs", "wifi", "bottled-water", "sliding-doors"],
+  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation", "vip-concierge"],
+  "heroImage": "/images/fleet/mercedes-v-class-hero.jpg"
+}

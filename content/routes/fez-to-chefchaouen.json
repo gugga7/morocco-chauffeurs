@@ -1,0 +1,11 @@
+{
+  "slug": "fez-to-chefchaouen",
+  "origin": "fez",
+  "destination": "chefchaouen",
+  "distanceKm": 210,
+  "durationMinutes": 240,
+  "highlights": ["countryside-landscapes", "rif-mountains-entry", "blue-pearl-arrival"],
+  "suggestedStops": ["ouazzane-town", "dardara-viewpoint"],
+  "recommendedVehicles": ["sedan", "suv", "luxury-sedan", "mercedes-v-class"],
+  "faqKeys": ["road-conditions", "scenic-route-option", "one-way-pricing"]
+}

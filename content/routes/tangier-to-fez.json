@@ -1,0 +1,11 @@
+{
+  "slug": "tangier-to-fez",
+  "origin": "tangier",
+  "destination": "fez",
+  "distanceKm": 300,
+  "durationMinutes": 210,
+  "highlights": ["rif-mountain-drive", "meknès-countryside", "imperial-city-arrival"],
+  "suggestedStops": ["chefchaouen-detour", "volubilis-ruins"],
+  "recommendedVehicles": ["sedan", "luxury-sedan", "suv", "mercedes-v-class"],
+  "faqKeys": ["highway-vs-scenic", "meknes-stop", "travel-duration"]
+}

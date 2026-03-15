@@ -1,0 +1,8 @@
+{
+  "slug": "event-transportation",
+  "icon": "CalendarCheck",
+  "availableCities": ["marrakech", "casablanca", "fez", "tangier", "rabat", "agadir", "essaouira", "chefchaouen", "merzouga", "meknes", "ouarzazate", "ifrane", "el-jadida"],
+  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter", "minibus", "coach-bus"],
+  "faqKeys": ["group-size", "wedding-packages", "corporate-billing"],
+  "heroImage": "/images/services/event-transportation-hero.jpg"
+}

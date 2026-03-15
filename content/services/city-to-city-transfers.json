@@ -1,0 +1,8 @@
+{
+  "slug": "city-to-city-transfers",
+  "icon": "Route",
+  "availableCities": ["marrakech", "casablanca", "fez", "tangier", "rabat", "agadir", "essaouira", "chefchaouen", "merzouga", "meknes", "ouarzazate", "ifrane", "el-jadida"],
+  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter", "minibus", "coach-bus"],
+  "faqKeys": ["luggage-included", "stops-allowed", "one-way-pricing"],
+  "heroImage": "/images/services/city-to-city-transfers-hero.jpg"
+}

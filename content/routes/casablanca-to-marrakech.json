@@ -1,0 +1,11 @@
+{
+  "slug": "casablanca-to-marrakech",
+  "origin": "casablanca",
+  "destination": "marrakech",
+  "distanceKm": 240,
+  "durationMinutes": 165,
+  "highlights": ["highway-toll-road", "atlas-mountain-backdrop", "settat-plains"],
+  "suggestedStops": ["settat-rest-area", "benguerir-cafe"],
+  "recommendedVehicles": ["sedan", "luxury-sedan", "suv", "mercedes-v-class"],
+  "faqKeys": ["highway-quality", "travel-time", "one-way-available"]
+}
