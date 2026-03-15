@@ -13,53 +13,1447 @@
     "home": "Accueil"
   },
   "hero": {
-    "eyebrow": "LUXURY CHAUFFEUR SERVICE IN MOROCCO",
-    "title": "Your Journey Through Morocco, Elevated",
-    "subtitle": "Premium chauffeur services across 13 destinations. Airport transfers, private tours, and bespoke travel experiences."
+    "eyebrow": "SERVICE DE CHAUFFEUR DE LUXE AU MAROC",
+    "title": "Votre Voyage au Maroc, Sublimé",
+    "subtitle": "Services de chauffeur premium dans 13 destinations. Transferts aéroport, visites privées et expériences de voyage sur mesure."
   },
   "trustBar": {
     "destinations": "Destinations",
-    "availability": "Availability",
-    "serviceTypes": "Service Types",
-    "rating": "Rated Service"
+    "availability": "Disponibilité",
+    "serviceTypes": "Types de services",
+    "rating": "Service noté"
   },
   "sections": {
-    "exploreMorocco": "EXPLORE MOROCCO",
-    "ourDestinations": "Our Destinations",
-    "viewAllDestinations": "View All 13 Destinations",
-    "tailoredToYou": "TAILORED TO YOU",
-    "ourServices": "Our Services",
-    "travelInStyle": "TRAVEL IN STYLE",
-    "ourFleet": "Our Fleet",
-    "viewDetails": "VIEW DETAILS",
-    "book": "BOOK",
-    "popularJourneys": "POPULAR JOURNEYS",
-    "mostRequestedRoutes": "Most Requested Routes",
-    "guestExperiences": "GUEST EXPERIENCES",
-    "whatClientsSay": "What Our Clients Say",
-    "readyToExperience": "Ready to Experience Morocco?",
-    "bookYourChauffeur": "Book Your Chauffeur",
-    "bookInMinutes": "Book your private chauffeur in minutes"
+    "exploreMorocco": "EXPLOREZ LE MAROC",
+    "ourDestinations": "Nos Destinations",
+    "viewAllDestinations": "Voir les 13 Destinations",
+    "tailoredToYou": "SUR MESURE POUR VOUS",
+    "ourServices": "Nos Services",
+    "travelInStyle": "VOYAGEZ AVEC STYLE",
+    "ourFleet": "Notre Flotte",
+    "viewDetails": "VOIR DÉTAILS",
+    "book": "RÉSERVER",
+    "popularJourneys": "TRAJETS POPULAIRES",
+    "mostRequestedRoutes": "Itinéraires les Plus Demandés",
+    "guestExperiences": "EXPÉRIENCES CLIENTS",
+    "whatClientsSay": "Ce Que Disent Nos Clients",
+    "readyToExperience": "Prêt à Découvrir le Maroc ?",
+    "bookYourChauffeur": "Réservez Votre Chauffeur",
+    "bookInMinutes": "Réservez votre chauffeur privé en quelques minutes"
   },
   "booking": {
-    "title": "Book Your Chauffeur",
-    "poweredBy": "Powered by TransMov",
-    "comingSoon": "Booking form coming soon"
+    "title": "Réservez Votre Chauffeur",
+    "poweredBy": "Propulsé par TransMov",
+    "comingSoon": "Formulaire de réservation bientôt disponible"
   },
   "footer": {
-    "description": "Premium chauffeur services across Morocco. Airport transfers, private tours, and bespoke travel experiences.",
+    "description": "Services de chauffeur premium à travers le Maroc. Transferts aéroport, visites privées et expériences de voyage sur mesure.",
     "destinations": "Destinations",
     "services": "Services",
     "contact": "Contact",
-    "copyright": "© 2026 Morocco Chauffeurs. All rights reserved.",
-    "terms": "Terms",
-    "privacy": "Privacy",
+    "copyright": "© 2026 Morocco Chauffeurs. Tous droits réservés.",
+    "terms": "Conditions",
+    "privacy": "Confidentialité",
     "cookies": "Cookies"
   },
   "notFound": {
-    "title": "Lost in the Medina?",
-    "description": "The page you're looking for doesn't exist. Let us guide you back.",
-    "goHome": "Return Home",
-    "viewDestinations": "View Destinations"
+    "title": "Perdu dans la Médina ?",
+    "description": "La page que vous recherchez n'existe pas. Laissez-nous vous guider.",
+    "goHome": "Retour à l'accueil",
+    "viewDestinations": "Voir les Destinations"
+  },
+  "cityPage": {
+    "heroTitle": "Service de Chauffeur à {city}",
+    "bookIn": "Réserver un Chauffeur à {city}",
+    "about": "À PROPOS DE {city}",
+    "heartOf": "Au Cœur de {city}",
+    "availableServices": "Services Disponibles",
+    "popularRoutes": "Itinéraires Populaires",
+    "from": "DEPUIS {city}",
+    "keyLocations": "Lieux Clés à {city}",
+    "availableVehicles": "Véhicules Disponibles",
+    "faqTitle": "FAQ Chauffeur {city}",
+    "readyToExplore": "Prêt à Explorer {city} ?",
+    "discover": "DÉCOUVRIR",
+    "frequentlyAsked": "QUESTIONS FRÉQUENTES",
+    "inCity": "À {city}"
+  },
+  "servicePage": {
+    "heroTitle": "{service}",
+    "howItWorks": "COMMENT ÇA MARCHE",
+    "howItWorksTitle": "Trois Étapes Simples",
+    "step": "Étape {number}",
+    "availableVehicles": "Véhicules Disponibles",
+    "forThisService": "POUR CE SERVICE",
+    "citiesAvailable": "Villes Desservies",
+    "bookThisService": "Réserver {service}",
+    "frequentlyAsked": "QUESTIONS FRÉQUENTES",
+    "faqTitle": "FAQ {service}",
+    "viewVehicle": "Voir le Véhicule",
+    "passengers": "{count} passagers",
+    "bookNow": "Réserver"
+  },
+  "fleetPage": {
+    "heroTitle": "{vehicle}",
+    "vehicleClass": "{vehicleClass}",
+    "specifications": "SPÉCIFICATIONS",
+    "vehicleSpecs": "Spécifications du Véhicule",
+    "passengers": "Passagers",
+    "luggage": "Capacité Bagages",
+    "features": "Équipements Premium",
+    "availableServices": "Services Disponibles",
+    "forThisVehicle": "POUR CE VÉHICULE",
+    "bookThisVehicle": "Réserver le {vehicle}",
+    "otherVehicles": "AUTRES OPTIONS",
+    "exploreOurFleet": "Découvrez Notre Flotte",
+    "pieces": "{count} pièces",
+    "seating": "{count} places"
+  },
+  "routePage": {
+    "heroTitle": "{origin} à {destination}",
+    "routeDetails": "DÉTAILS DE L'ITINÉRAIRE",
+    "distance": "Distance",
+    "duration": "Durée",
+    "km": "{count} km",
+    "hours": "{hours}h {minutes}m",
+    "highlights": "POINTS FORTS",
+    "routeHighlights": "Points Forts de l'Itinéraire",
+    "suggestedStops": "EN CHEMIN",
+    "suggestedStopsTitle": "Arrêts Suggérés",
+    "recommendedVehicles": "RECOMMANDÉS",
+    "recommendedVehiclesTitle": "Véhicules Recommandés",
+    "relatedRoutes": "EXPLORER PLUS",
+    "relatedRoutesTitle": "Itinéraires Associés",
+    "frequentlyAsked": "QUESTIONS FRÉQUENTES",
+    "faqTitle": "FAQ {origin} à {destination}",
+    "bookThisRoute": "Réserver {origin} à {destination}"
+  },
+  "reservation": {
+    "eyebrow": "RÉSERVEZ VOTRE VOYAGE",
+    "title": "Faire une Réservation",
+    "subtitle": "Sélectionnez votre service, véhicule et dates pour commencer votre expérience de voyage premium au Maroc."
+  },
+  "about": {
+    "eyebrow": "NOTRE HISTOIRE",
+    "title": "À Propos de Morocco Chauffeurs",
+    "intro": "Morocco Chauffeurs a été fondé avec une vision singulière : offrir aux voyageurs l'expérience de transport privé la plus raffinée, fiable et mémorable à travers le Royaume du Maroc.",
+    "story1": "Depuis nos débuts au service de voyageurs exigeants à Marrakech, nous sommes devenus le premier service de chauffeur du Maroc, opérant dans 13 destinations avec une flotte de véhicules premium et une équipe de chauffeurs professionnels et multilingues.",
+    "story2": "Nous croyons que le transport n'est pas simplement un moyen d'aller d'un point à un autre — c'est une partie intégrante de l'expérience de voyage. Chaque trajet avec nous est conçu pour être confortable, sûr et enrichissant, que vous soyez en transfert depuis l'aéroport, en visite de médinas anciennes ou en traversée de l'Atlas vers le Sahara.",
+    "story3": "Nos chauffeurs sont plus que des conducteurs. Ce sont des ambassadeurs de l'hospitalité marocaine, formés aux plus hauts standards de service, connaisseurs de la culture et de l'histoire locales, et dédiés à faire en sorte que chaque client se sente accueilli et valorisé.",
+    "missionEyebrow": "NOTRE MISSION",
+    "missionTitle": "Élever Chaque Voyage",
+    "mission": "Offrir aux voyageurs une expérience de transport privé fluide, luxueuse et culturellement enrichissante qui met en valeur le meilleur du Maroc.",
+    "whyChooseUs": "POURQUOI NOUS CHOISIR",
+    "whyChooseUsTitle": "La Différence Morocco Chauffeurs",
+    "reason1Title": "Chauffeurs Professionnels",
+    "reason1": "Multilingues, formés et profondément connaisseurs des routes, de la culture et des trésors cachés du Maroc.",
+    "reason2Title": "Flotte Premium",
+    "reason2": "Des berlines de direction aux autocars de luxe, chaque véhicule est méticuleusement entretenu et équipé d'équipements modernes.",
+    "reason3Title": "Disponibilité 24h/24",
+    "reason3": "Qu'il s'agisse d'un transfert aéroport à l'aube ou d'un retour à minuit, nous sommes disponibles en permanence.",
+    "reason4Title": "Tarification Transparente",
+    "reason4": "Tarifs tout compris sans frais cachés. Péages, carburant et pourboire du chauffeur sont inclus dans chaque devis.",
+    "reason5Title": "Expertise Locale",
+    "reason5": "Connaissance approfondie de chaque destination, itinéraire et attraction à travers le paysage diversifié du Maroc.",
+    "reason6Title": "Sécurité Avant Tout",
+    "reason6": "Entretien rigoureux des véhicules, standards de conduite professionnels et assurance complète pour chaque trajet."
+  },
+  "contact": {
+    "eyebrow": "CONTACTEZ-NOUS",
+    "title": "Nous Contacter",
+    "subtitle": "Nous sommes là pour vous aider avec les réservations, les demandes et les arrangements de voyage sur mesure à travers le Maroc.",
+    "addressLabel": "Adresse",
+    "address": "Avenue Mohammed V, Guéliz, Marrakech, Maroc",
+    "phoneLabel": "Téléphone",
+    "phone": "+212 5 24 00 00 00",
+    "emailLabel": "Email",
+    "email": "info@moroccochaffeurs.com",
+    "hoursLabel": "Heures d'ouverture",
+    "hours": "24 heures sur 24, 7 jours sur 7",
+    "followUs": "Suivez-nous",
+    "readyToBook": "Prêt à Réserver Votre Voyage ?",
+    "readyToBookDescription": "Visitez notre page de réservation pour réserver votre service de chauffeur privé en quelques minutes."
+  },
+  "faq": {
+    "eyebrow": "QUESTIONS FRÉQUEMMENT POSÉES",
+    "title": "Tout Ce Que Vous Devez Savoir",
+    "items": {
+      "q1": {
+        "question": "Comment réserver un service de chauffeur ?",
+        "answer": "Vous pouvez réserver via notre site web en visitant la page de réservation, ou nous contacter directement par téléphone ou email. Nous recommandons de réserver au moins 24 heures à l'avance, bien que nous acceptions les demandes du jour même dans la mesure du possible."
+      },
+      "q2": {
+        "question": "Quels véhicules sont disponibles ?",
+        "answer": "Notre flotte va des berlines de direction comme la Mercedes Classe E aux autocars pour groupes de 45 personnes. Nous proposons également des berlines de luxe, SUV, Mercedes Classe V pour les familles et des Sprinter VIP pour les groupes moyens."
+      },
+      "q3": {
+        "question": "Vos chauffeurs parlent-ils anglais ?",
+        "answer": "Oui, tous nos chauffeurs parlent couramment l'anglais et le français. Beaucoup parlent également l'arabe, l'espagnol, l'allemand et d'autres langues européennes, selon la région qu'ils desservent."
+      },
+      "q4": {
+        "question": "Les prix sont-ils tout compris ?",
+        "answer": "Oui. Nos prix incluent le véhicule, le chauffeur, le carburant, les péages, le stationnement et la TVA. Il n'y a pas de frais cachés. Le seul supplément optionnel est un pourboire pour votre chauffeur, à votre discrétion."
+      },
+      "q5": {
+        "question": "Quelle est votre politique d'annulation ?",
+        "answer": "Les transferts standard peuvent être annulés gratuitement jusqu'à 24 heures avant le ramassage prévu. Les circuits de plusieurs jours nécessitent un préavis de 72 heures. Nous travaillons toujours avec nos clients pour trouver une solution équitable si les plans changent de manière inattendue."
+      },
+      "q6": {
+        "question": "Fournissez-vous des sièges enfants ?",
+        "answer": "Oui, nous fournissons des sièges enfants et des rehausseurs sans frais supplémentaires. Veuillez préciser l'âge des enfants lors de la réservation afin que nous puissions installer le siège approprié dans votre véhicule."
+      },
+      "q7": {
+        "question": "Puis-je modifier ma réservation après confirmation ?",
+        "answer": "Oui, les modifications des heures de prise en charge, des lieux et des itinéraires peuvent généralement être effectuées sans frais supplémentaires, à condition de nous prévenir au moins 12 heures à l'avance. Les surclassements de véhicule sont soumis à disponibilité."
+      },
+      "q8": {
+        "question": "Que se passe-t-il si mon vol est retardé ?",
+        "answer": "Nous suivons tous les vols en temps réel. Si votre arrivée est retardée, votre chauffeur s'adapte automatiquement sans frais supplémentaires. Pas besoin de nous prévenir — nous serons là à votre atterrissage."
+      },
+      "q9": {
+        "question": "Opérez-vous dans toutes les villes marocaines ?",
+        "answer": "Nous desservons 13 destinations à travers le Maroc, dont Marrakech, Casablanca, Fès, Tanger, Rabat, Agadir, Essaouira, Chefchaouen, Merzouga, Meknès, Ouarzazate, Ifrane et El Jadida. Nous assurons également les transferts entre toutes ces villes."
+      },
+      "q10": {
+        "question": "Comment puis-je payer ?",
+        "answer": "Nous acceptons les principales cartes de crédit, les virements bancaires et le paiement en espèces en Dirhams marocains ou en Euros. Le paiement est dû à la fin du service pour les transferts standard. Les circuits de plusieurs jours nécessitent un acompte à la réservation."
+      }
+    }
+  },
+  "blog": {
+    "eyebrow": "NOTRE JOURNAL",
+    "title": "Blog Voyage Maroc",
+    "comingSoon": "Bientôt Disponible",
+    "comingSoonDescription": "Nous préparons des guides de voyage, des recommandations d'itinéraires et des histoires culturelles pour vous aider à planifier votre voyage marocain parfait. Revenez bientôt."
+  },
+  "terms": {
+    "eyebrow": "MENTIONS LÉGALES",
+    "title": "Conditions Générales",
+    "lastUpdated": "Dernière mise à jour : Mars 2026",
+    "serviceAgreementTitle": "Contrat de Service",
+    "serviceAgreement": "En réservant un service auprès de Morocco Chauffeurs, vous acceptez ces conditions générales. Nos services comprennent les transferts aéroport, les transferts interurbains, la location de chauffeur à l'heure, les circuits de plusieurs jours, le transport événementiel et les services de conciergerie VIP. Toutes les réservations sont soumises à la disponibilité des véhicules et des chauffeurs.",
+    "bookingTitle": "Réservation et Annulation",
+    "booking": "Les réservations sont confirmées à la réception d'une confirmation écrite de Morocco Chauffeurs. Les transferts standard peuvent être annulés gratuitement jusqu'à 24 heures avant le ramassage prévu. Les circuits de plusieurs jours nécessitent un préavis de 72 heures pour une annulation gratuite. Les annulations tardives peuvent entraîner des frais équivalents au premier jour de service.",
+    "liabilityTitle": "Responsabilité",
+    "liability": "Morocco Chauffeurs maintient une assurance complète pour tous les véhicules et passagers. Notre responsabilité est limitée à la valeur du service réservé. Nous ne sommes pas responsables des retards causés par le trafic, les conditions météorologiques, les fermetures de routes ou d'autres circonstances indépendantes de notre volonté. Les passagers voyagent à leurs propres risques et sont invités à maintenir une assurance voyage personnelle.",
+    "paymentTitle": "Paiement",
+    "payment": "Le paiement est dû à la fin du service pour les transferts standard. Les circuits de plusieurs jours et le transport événementiel nécessitent un acompte de 50 % à la réservation, le solde étant dû le premier jour de service. Nous acceptons les principales cartes de crédit, les virements bancaires et les espèces.",
+    "conductTitle": "Conduite des Passagers",
+    "conduct": "Les passagers sont priés de traiter les véhicules et les chauffeurs avec respect. Il est interdit de fumer dans tous les véhicules. Tout dommage aux véhicules causé par la négligence des passagers sera facturé au coût de réparation. Le chauffeur se réserve le droit d'interrompre un trajet si le comportement des passagers met en danger la sécurité."
+  },
+  "privacy": {
+    "eyebrow": "MENTIONS LÉGALES",
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : Mars 2026",
+    "dataCollectionTitle": "Collecte des Données",
+    "dataCollection": "Nous collectons les informations personnelles nécessaires à la fourniture de nos services de chauffeur, notamment votre nom, vos coordonnées, votre itinéraire de voyage, les informations de vol et les détails de paiement. Ces informations sont collectées lorsque vous effectuez une réservation, nous contactez ou utilisez notre site web.",
+    "cookiesTitle": "Cookies",
+    "cookies": "Notre site web utilise des cookies essentiels pour assurer un bon fonctionnement et des cookies analytiques pour comprendre comment les visiteurs utilisent notre site. Vous pouvez contrôler les préférences de cookies via les paramètres de votre navigateur. Nous n'utilisons pas de cookies publicitaires et ne partageons pas les données de cookies avec des tiers.",
+    "yourRightsTitle": "Vos Droits",
+    "yourRights": "En vertu des lois applicables en matière de protection des données, vous avez le droit d'accéder, de corriger ou de supprimer vos données personnelles. Vous pouvez également demander une copie de toutes les données que nous détenons à votre sujet. Pour exercer ces droits, contactez-nous à privacy@moroccochaffeurs.com.",
+    "dataSecurityTitle": "Sécurité des Données",
+    "dataSecurity": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles contre l'accès non autorisé, la modification, la divulgation ou la destruction. Les informations de paiement sont traitées par des processeurs de paiement sécurisés et conformes à la norme PCI.",
+    "dataRetentionTitle": "Conservation des Données",
+    "dataRetention": "Nous conservons les dossiers de réservation et les données personnelles pendant une période de 3 ans après le dernier service fourni, conformément aux exigences légales et réglementaires. Après cette période, les données sont supprimées de manière sécurisée."
+  },
+  "testimonials": {
+    "sarah-london": {
+      "text": "Dès l'instant où notre chauffeur nous a accueillis à l'aéroport de Marrakech, nous savions être entre des mains exceptionnelles. Le véhicule était impeccable, la conduite confiante mais douce, et la connaissance de notre chauffeur de la ville et de ses environs a élevé l'ensemble de notre voyage. Le transfert vers le désert de Merzouga était particulièrement remarquable — il savait exactement où s'arrêter pour les meilleures vues. Nous ne voyagerions au Maroc d'aucune autre manière.",
+      "name": "Sarah T.",
+      "location": "Londres, Royaume-Uni"
+    },
+    "jean-paris": {
+      "text": "Nous avons réservé un circuit de plusieurs jours de Casablanca à travers Fès et Chefchaouen, et chaque détail a été géré avec un professionnalisme remarquable. Notre chauffeur était ponctuel, courtois et véritablement passionné par le partage de son pays. La Mercedes Classe V était parfaite pour notre famille de quatre avec les bagages. Ce qui nous a le plus impressionnés, c'est la flexibilité — quand nous voulions nous attarder à Volubilis, il n'y avait jamais de précipitation. Ce service établit la norme du voyage de luxe au Maroc.",
+      "name": "Jean-Pierre D.",
+      "location": "Paris, France"
+    },
+    "hans-berlin": {
+      "text": "En tant que voyageur d'affaires fréquent à Casablanca et Rabat, je fais confiance à Morocco Chauffeurs depuis plus de deux ans. Leur constance est remarquable — le même haut standard à chaque fois, qu'il s'agisse d'un transfert aéroport tôt le matin ou d'un transfert interurbain tard le soir. Les véhicules sont toujours impeccables, les chauffeurs toujours professionnels. Pour quiconque valorise la fiabilité et le confort au Maroc, c'est le seul service qui mérite d'être considéré.",
+      "name": "Hans M.",
+      "location": "Berlin, Allemagne"
+    }
+  },
+  "cities": {
+    "marrakech": {
+      "name": "Marrakech",
+      "tagline": "La Ville Rouge",
+      "intro": "Marrakech captive les visiteurs par sa médina labyrinthique, ses souks vibrants et l'énergie éternelle de la place Jemaa el-Fnaa. En tant que ville la plus visitée du Maroc, elle exige un niveau de transport à la hauteur de sa grandeur. Nos services de chauffeur professionnel vous garantissent de découvrir chaque recoin de la Ville Rouge dans le confort et le style, du tranquille Jardin Majorelle aux halls ornés du Palais Bahia.\n\nNaviguer dans les rues animées et les ruelles étroites de Marrakech nécessite une expertise locale que seul un chauffeur expérimenté peut offrir. Que vous arriviez à l'aéroport Marrakech Menara, embarquiez pour une excursion dans les montagnes de l'Atlas ou assistiez à un événement exclusif dans l'un des riads légendaires de la ville, nos chauffeurs offrent un service fluide et ponctuel dans des véhicules premium.\n\nAvec Marrakech comme base, les merveilles du sud du Maroc se déploient devant vous. Laissez-nous organiser votre transfert vers la côte venteuse d'Essaouira, une expédition de plusieurs jours au Sahara ou une route panoramique à travers la vallée de l'Ourika. Chaque voyage commence et se termine avec l'assurance de Morocco Chauffeurs.",
+      "meta": {
+        "title": "Service de Chauffeur à Marrakech — Transferts Privés et Visites",
+        "description": "Services de chauffeur premium à Marrakech. Transferts depuis l'aéroport Menara, visites de la ville, excursions dans l'Atlas et transport de luxe dans la Ville Rouge."
+      },
+      "landmarks": {
+        "jemaa-el-fnaa": {
+          "name": "Jemaa el-Fnaa",
+          "type": "place"
+        },
+        "majorelle-garden": {
+          "name": "Jardin Majorelle",
+          "type": "jardin"
+        },
+        "bahia-palace": {
+          "name": "Palais Bahia",
+          "type": "palais"
+        },
+        "menara-airport": {
+          "name": "Aéroport Menara",
+          "type": "aéroport"
+        }
+      },
+      "faq": {
+        "airport-distance": {
+          "question": "À quelle distance se trouve l'aéroport Marrakech Menara du centre-ville ?",
+          "answer": "L'aéroport Marrakech Menara est à seulement 6 kilomètres du centre-ville, avec un temps de transfert typique de 15 à 20 minutes. Nos chauffeurs surveillent les conditions de circulation et sélectionnent l'itinéraire optimal, assurant une arrivée rapide et confortable à votre hôtel ou riad."
+        },
+        "best-day-trips": {
+          "question": "Quelles sont les meilleures excursions d'une journée depuis Marrakech en voiture privée ?",
+          "answer": "Marrakech offre d'excellentes options d'excursions, notamment la ville côtière d'Essaouira, les cascades d'Ouzoud, la vallée de l'Ourika dans le Haut Atlas et l'ancienne kasbah d'Aït Benhaddou. Chaque trajet est enrichi par un chauffeur compétent qui peut suggérer des arrêts en chemin."
+        },
+        "english-speaking": {
+          "question": "Vos chauffeurs à Marrakech parlent-ils anglais ?",
+          "answer": "Oui, tous nos chauffeurs à Marrakech parlent couramment l'anglais et le français, et beaucoup parlent également l'arabe, l'espagnol et l'allemand. Ils servent non seulement de conducteurs professionnels mais aussi de guides courtois qui peuvent partager des informations sur la ville et ses environs."
+        },
+        "desert-tour": {
+          "question": "Pouvez-vous organiser une visite privée du désert depuis Marrakech ?",
+          "answer": "Absolument. Nous proposons des transferts privés de plusieurs jours de Marrakech au désert du Sahara via Ouarzazate et la vallée du Dadès. Le trajet traverse le Haut Atlas par le col du Tizi n'Tichka, offrant des paysages à couper le souffle. Nous recommandons un itinéraire de deux ou trois jours pour apprécier pleinement le paysage et arriver à l'Erg Chebbi au coucher du soleil."
+        }
+      }
+    },
+    "casablanca": {
+      "name": "Casablanca",
+      "tagline": "La Capitale Économique",
+      "intro": "Casablanca est la puissance commerciale du Maroc, une métropole moderne où les gratte-ciel étincelants côtoient la splendeur architecturale de la Mosquée Hassan II. Les voyageurs d'affaires comme les visiteurs de loisirs sont attirés par cette ville dynamique, et nos services de chauffeur garantissent que chaque trajet à travers ses larges boulevards et ses quartiers animés est marqué par le professionnalisme et le raffinement.\n\nL'aéroport international Mohammed V, situé à 30 kilomètres au sud du centre-ville, sert de principale porte d'entrée internationale du Maroc. Notre service de transfert aéroport offre le suivi des vols, l'accueil à l'arrivée et des véhicules confortables qui rendent la transition du voyage aérien à l'exploration de la ville sans effort.\n\nAu-delà de la ville elle-même, Casablanca est le point de départ idéal pour des voyages à travers le Maroc. Nos chauffeurs relient régulièrement nos clients à Rabat, Marrakech, El Jadida et au-delà, transformant les voyages interurbains en une expérience confortable et panoramique.",
+      "meta": {
+        "title": "Service de Chauffeur à Casablanca — Transferts Aéroport et Voyages d'Affaires",
+        "description": "Services de chauffeur professionnels à Casablanca. Transferts aéroport Mohammed V, voyages d'affaires et transport de luxe dans la capitale économique du Maroc."
+      },
+      "landmarks": {
+        "hassan-ii-mosque": {
+          "name": "Mosquée Hassan II",
+          "type": "mosquée"
+        },
+        "corniche": {
+          "name": "Corniche",
+          "type": "promenade"
+        },
+        "old-medina": {
+          "name": "Ancienne Médina",
+          "type": "quartier historique"
+        },
+        "morocco-mall": {
+          "name": "Morocco Mall",
+          "type": "centre commercial"
+        },
+        "mohammed-v-airport": {
+          "name": "Aéroport Mohammed V",
+          "type": "aéroport"
+        }
+      },
+      "faq": {
+        "airport-distance": {
+          "question": "À quelle distance se trouve l'aéroport Mohammed V du centre de Casablanca ?",
+          "answer": "L'aéroport international Mohammed V est à environ 30 kilomètres du centre-ville. Selon le trafic, le transfert prend entre 40 et 60 minutes. Nos chauffeurs utilisent des données de trafic en temps réel pour choisir l'itinéraire le plus rapide et arrivent toujours bien avant votre heure de prise en charge prévue."
+        },
+        "city-tours": {
+          "question": "Proposez-vous des visites guidées de la ville à Casablanca ?",
+          "answer": "Oui, notre service de chauffeur à l'heure est idéal pour explorer les points forts de Casablanca. Votre chauffeur peut vous emmener à la magnifique Mosquée Hassan II, le long de la Corniche, à travers le quartier Art Déco du centre-ville et à l'ancienne médina. Nous adaptons l'itinéraire à vos intérêts et votre rythme."
+        },
+        "english-speaking": {
+          "question": "Vos chauffeurs casablancais parlent-ils anglais ?",
+          "answer": "Tous nos chauffeurs à Casablanca parlent couramment l'anglais et le français. Beaucoup parlent également l'arabe et l'espagnol. Ils sont habitués à servir des clients d'affaires internationaux et des voyageurs de loisirs, assurant une communication claire et un service attentif tout au long de votre trajet."
+        },
+        "business-travel": {
+          "question": "Proposez-vous des services de transport d'entreprise à Casablanca ?",
+          "answer": "Nous nous spécialisons dans les voyages d'affaires à travers Casablanca, offrant des transferts ponctuels entre hôtels, bureaux, lieux de conférence et l'aéroport. Nous proposons la facturation pour les entreprises, la gestion de compte régulière et une flotte de véhicules de classe executive adaptés aux exigences professionnelles."
+        }
+      }
+    },
+    "fez": {
+      "name": "Fès",
+      "tagline": "La Capitale Spirituelle",
+      "intro": "Fès est le cœur culturel et spirituel du Maroc, abritant la plus ancienne université du monde et une médina si vaste et complexe qu'elle est classée au patrimoine mondial de l'UNESCO. L'ancienne ville de Fès el-Bali, avec ses milliers de ruelles sinueuses, ateliers d'artisans et madrasas centenaires, récompense ceux qui l'approchent avec patience et émerveillement. Nos services de chauffeur offrent le complément parfait à cette expérience.\n\nL'aéroport Fès-Saïss se trouve à 15 kilomètres au sud de la ville, et nos chauffeurs assurent une connexion fluide de votre vol jusqu'au bord de la médina. Une fois à Fès, un chauffeur à l'heure vous permet d'explorer la Ville Nouvelle, de visiter l'emblématique médersa Bou Inania ou de vous aventurer aux terrasses d'observation de la tannerie Chouara.\n\nFès sert également de porte d'entrée vers les montagnes du Rif et l'enchanteresse ville bleue de Chefchaouen. Nos transferts privés le long de cette route panoramique comptent parmi les voyages les plus populaires que nous organisons.",
+      "meta": {
+        "title": "Service de Chauffeur à Fès — Transferts Privés et Visites Culturelles",
+        "description": "Services de chauffeur de luxe à Fès. Transferts aéroport Fès-Saïss, visites de la médina et voyages privés vers Chefchaouen et les montagnes du Rif."
+      },
+      "landmarks": {
+        "fez-el-bali": {
+          "name": "Fès el-Bali",
+          "type": "médina"
+        },
+        "bou-inania-madrasa": {
+          "name": "Médersa Bou Inania",
+          "type": "médersa"
+        },
+        "chouara-tannery": {
+          "name": "Tannerie Chouara",
+          "type": "tannerie"
+        },
+        "royal-palace-fez": {
+          "name": "Palais Royal de Fès",
+          "type": "palais"
+        },
+        "fez-saiss-airport": {
+          "name": "Aéroport Fès-Saïss",
+          "type": "aéroport"
+        }
+      },
+      "faq": {
+        "airport-distance": {
+          "question": "À quelle distance se trouve l'aéroport Fès-Saïss de la médina ?",
+          "answer": "L'aéroport Fès-Saïss est à environ 15 kilomètres de la médina, avec un temps de transfert typique de 20 à 30 minutes. Nos chauffeurs vous accueillent aux arrivées et naviguent directement vers votre riad ou hôtel, y compris ceux situés dans l'ancienne médina où l'accès en véhicule nécessite une connaissance locale."
+        },
+        "medina-access": {
+          "question": "Vos chauffeurs peuvent-ils aider à accéder à la médina de Fès ?",
+          "answer": "Bien que les véhicules ne puissent pas entrer dans les ruelles étroites de Fès el-Bali, nos chauffeurs vous déposeront à la porte accessible la plus proche de votre hébergement. Beaucoup de nos chauffeurs entretiennent des relations avec des porteurs locaux qui peuvent vous aider avec vos bagages dans les rues piétonnes de la médina."
+        },
+        "english-speaking": {
+          "question": "Des chauffeurs anglophones sont-ils disponibles à Fès ?",
+          "answer": "Oui, tous nos chauffeurs à Fès parlent couramment l'anglais et le français. Plusieurs parlent également l'espagnol, l'allemand ou l'italien. Ils connaissent bien la riche histoire de la ville et peuvent offrir un contexte culturel lors de vos déplacements entre les monuments."
+        },
+        "cultural-tours": {
+          "question": "Pouvez-vous organiser des visites culturelles depuis Fès ?",
+          "answer": "Certainement. Les visites populaires depuis Fès comprennent les ruines romaines de Volubilis, la ville impériale de Meknès et les sources thermales de Moulay Yacoub. Nos chauffeurs connaissent intimement ces itinéraires et peuvent vous recommander l'itinéraire idéal selon vos intérêts."
+        }
+      }
+    },
+    "tangier": {
+      "name": "Tanger",
+      "tagline": "Porte de l'Afrique",
+      "intro": "Perchée à la pointe nord du Maroc où l'Atlantique rencontre la Méditerranée, Tanger est depuis longtemps un carrefour de civilisations. Cette ville portuaire légendaire, autrefois zone internationale qui attirait écrivains, artistes et diplomates, pulse aujourd'hui d'une énergie renouvelée. Sa médina, perchée au-dessus du détroit de Gibraltar étincelant, offre des vues qui s'étendent jusqu'à la côte espagnole par temps clair.\n\nL'aéroport Tanger Ibn Battouta, à seulement 12 kilomètres du centre-ville, croît rapidement comme porte d'entrée pour les voyageurs européens. Notre service de transfert aéroport assure un accueil soigné dès votre atterrissage.\n\nDu légendaire Café Hafa aux mythiques Grottes d'Hercule au Cap Spartel, Tanger récompense l'exploration. Laissez nos chauffeurs vous guider à travers les quartiers éclectiques de la ville et le long de sa côte spectaculaire.",
+      "meta": {
+        "title": "Service de Chauffeur à Tanger — Transferts Aéroport et Visites Côtières",
+        "description": "Services de chauffeur premium à Tanger. Transferts aéroport, prises en charge au port, visites côtières et transferts privés vers Chefchaouen et Fès."
+      },
+      "landmarks": {
+        "kasbah-museum": {
+          "name": "Musée de la Kasbah",
+          "type": "musée"
+        },
+        "cap-spartel": {
+          "name": "Cap Spartel",
+          "type": "point de repère"
+        },
+        "hercules-cave": {
+          "name": "Grottes d'Hercule",
+          "type": "grotte"
+        },
+        "grand-socco": {
+          "name": "Grand Socco",
+          "type": "place"
+        },
+        "tangier-airport": {
+          "name": "Aéroport Tanger Ibn Battouta",
+          "type": "aéroport"
+        }
+      },
+      "faq": {
+        "airport-distance": {
+          "question": "À quelle distance se trouve l'aéroport de Tanger de la ville ?",
+          "answer": "L'aéroport Tanger Ibn Battouta est à 12 kilomètres du centre-ville, avec des transferts prenant généralement 15 à 25 minutes. Nos chauffeurs proposent un service d'accueil aux arrivées et s'occupent de vos bagages, rendant la transition du vol à l'hôtel parfaitement fluide."
+        },
+        "ferry-transfers": {
+          "question": "Proposez-vous des transferts depuis le port de Tanger ?",
+          "answer": "Oui, nous assurons les prises en charge et dépose au port Tanger Med et au terminal ferry de Tanger Ville. Que vous arriviez de Tarifa, Algésiras ou d'ailleurs en Espagne, votre chauffeur vous attendra à votre débarquement."
+        },
+        "english-speaking": {
+          "question": "Vos chauffeurs tangérois parlent-ils anglais ?",
+          "answer": "Tous nos chauffeurs à Tanger parlent couramment l'anglais et le français, et beaucoup parlent également l'espagnol, étant donné la proximité de la ville avec l'Espagne. Ils sont expérimentés dans le service aux clients internationaux et peuvent fournir des recommandations locales."
+        },
+        "day-trips": {
+          "question": "Quelles excursions sont disponibles depuis Tanger ?",
+          "answer": "Tanger est parfaitement positionnée pour des excursions à Chefchaouen, la perle bleue du Maroc, ainsi qu'à Asilah, une charmante ville côtière. Le Cap Spartel et les Grottes d'Hercule sont également facilement accessibles pour une demi-journée d'excursion."
+        }
+      }
+    },
+    "rabat": {
+      "name": "Rabat",
+      "tagline": "La Capitale Impériale",
+      "intro": "Rabat, l'élégante capitale du Maroc, allie importance administrative et beauté sereine qui surprend souvent les premiers visiteurs. Larges avenues bordées d'arbres, la Kasbah fortifiée des Oudayas surplombant le fleuve Bou Regreg et la grandeur inachevée de la Tour Hassan donnent à Rabat un caractère unique.\n\nL'aéroport Rabat-Salé est idéalement situé à seulement 10 kilomètres du centre-ville, offrant des transferts rapides de 15 à 25 minutes. Nos chauffeurs professionnels connaissent les protocoles attendus par le personnel des ambassades et les responsables gouvernementaux.\n\nComme porte d'entrée vers la côte atlantique du Maroc et la ville voisine de Casablanca, Rabat est une excellente base pour explorer la région.",
+      "meta": {
+        "title": "Service de Chauffeur à Rabat — Transport Diplomatique et Exécutif",
+        "description": "Services de chauffeur professionnels à Rabat. Transferts aéroport, transport diplomatique, déplacements dans le quartier gouvernemental et service de voiture exécutive dans la capitale du Maroc."
+      },
+      "landmarks": {
+        "hassan-tower": {
+          "name": "Tour Hassan",
+          "type": "monument"
+        },
+        "kasbah-udayas": {
+          "name": "Kasbah des Oudayas",
+          "type": "kasbah"
+        },
+        "chellah": {
+          "name": "Chellah",
+          "type": "ruines"
+        },
+        "mohammed-v-mausoleum": {
+          "name": "Mausolée Mohammed V",
+          "type": "mausolée"
+        }
+      },
+      "faq": {
+        "airport-distance": {
+          "question": "À quelle distance se trouve l'aéroport Rabat-Salé du centre-ville ?",
+          "answer": "L'aéroport Rabat-Salé est à environ 10 kilomètres du centre de Rabat, avec un transfert typique de 15 à 25 minutes. Nos chauffeurs connaissent tous les grands hôtels, ambassades et bâtiments gouvernementaux, assurant une navigation précise et efficace."
+        },
+        "government-district": {
+          "question": "Desservez-vous le quartier gouvernemental et des ambassades ?",
+          "answer": "Oui, une part importante de notre clientèle à Rabat comprend des diplomates, du personnel d'ambassade et des responsables gouvernementaux. Nos chauffeurs comprennent les exigences de sécurité et de protocole de ces environnements et fournissent un service discret et professionnel."
+        },
+        "english-speaking": {
+          "question": "Vos chauffeurs à Rabat parlent-ils anglais ?",
+          "answer": "Tous nos chauffeurs à Rabat parlent couramment l'anglais et le français, les deux langues étant largement utilisées dans les milieux diplomatiques et d'affaires de la capitale. Beaucoup parlent également l'arabe, l'espagnol ou d'autres langues européennes."
+        },
+        "historical-sites": {
+          "question": "Pouvez-vous organiser des visites des sites historiques de Rabat ?",
+          "answer": "Bien sûr. Notre service de chauffeur à l'heure est idéal pour visiter les sites du patrimoine mondial de Rabat, notamment la Tour Hassan, la Kasbah des Oudayas et l'ancienne nécropole du Chellah. Votre chauffeur peut coordonner l'itinéraire pour inclure tous les monuments clés à un rythme confortable."
+        }
+      }
+    },
+    "agadir": {
+      "name": "Agadir",
+      "tagline": "La Capitale Balnéaire",
+      "intro": "Agadir s'étend le long de la côte atlantique sud du Maroc, offrant des plages dorées, un ensoleillement toute l'année et une atmosphère détendue qui attire des vacanciers de toute l'Europe. Reconstruite dans un style moderne après le tremblement de terre de 1960, la ville est aujourd'hui une destination balnéaire bien organisée.\n\nL'aéroport Agadir Al Massira, situé à 25 kilomètres de la zone hôtelière, reçoit des vols directs de nombreuses villes européennes. Notre service de transfert aéroport vous accueille aux arrivées et vous conduit à votre station en 25 à 35 minutes.\n\nAu-delà de la plage, Agadir est la porte d'entrée vers la région du Souss-Massa, la Vallée du Paradis et la route côtière panoramique vers Essaouira.",
+      "meta": {
+        "title": "Service de Chauffeur à Agadir — Transferts Station et Visites Côtières",
+        "description": "Services de chauffeur de luxe à Agadir. Transferts aéroport, transport station balnéaire, excursions à Essaouira et visites côtières le long de la côte atlantique sud du Maroc."
+      },
+      "landmarks": {
+        "agadir-beach": {
+          "name": "Plage d'Agadir",
+          "type": "plage"
+        },
+        "souss-massa-park": {
+          "name": "Parc National Souss-Massa",
+          "type": "parc"
+        },
+        "kasbah-agadir": {
+          "name": "Kasbah d'Agadir",
+          "type": "kasbah"
+        },
+        "agadir-airport": {
+          "name": "Aéroport Agadir Al Massira",
+          "type": "aéroport"
+        }
+      },
+      "faq": {
+        "airport-distance": {
+          "question": "À quelle distance se trouve l'aéroport d'Agadir des stations balnéaires ?",
+          "answer": "L'aéroport Agadir Al Massira est à 25 kilomètres de la zone hôtelière principale, avec des transferts prenant généralement 25 à 35 minutes. Nos chauffeurs vous offrent un trajet confortable et climatisé jusqu'à votre station, en s'occupant de tous les bagages."
+        },
+        "beach-resorts": {
+          "question": "Assurez-vous le transport entre les stations balnéaires d'Agadir ?",
+          "answer": "Oui, notre service de chauffeur à l'heure est parfait pour se déplacer entre les stations, restaurants, parcours de golf et plages d'Agadir. Réservez simplement à l'heure et votre chauffeur reste à votre disposition toute la journée."
+        },
+        "english-speaking": {
+          "question": "Des chauffeurs anglophones sont-ils disponibles à Agadir ?",
+          "answer": "Tous nos chauffeurs à Agadir parlent couramment l'anglais et le français. Beaucoup parlent également l'allemand, le néerlandais ou les langues scandinaves, reflétant la clientèle européenne diverse qui fréquente la région."
+        },
+        "coastal-tours": {
+          "question": "Pouvez-vous organiser une visite côtière depuis Agadir ?",
+          "answer": "Absolument. La route panoramique d'Agadir à Essaouira le long de la côte atlantique est l'un de nos voyages les plus populaires. Nous pouvons également organiser des visites à Taghazout, Imsouane et les forêts d'arganiers de la région du Souss."
+        }
+      }
+    },
+    "essaouira": {
+      "name": "Essaouira",
+      "tagline": "La Cité du Vent",
+      "intro": "Essaouira enchante par sa médina fortifiée, ses plages atlantiques balayées par le vent et son esprit bohème qui attire artistes et musiciens depuis des générations. Cette ville côtière classée au patrimoine mondial de l'UNESCO offre un contraste rafraîchissant avec les villes plus animées du Maroc.\n\nEssaouira n'a pas son propre aéroport commercial, ce qui fait des transferts privés le moyen le plus confortable d'arriver. L'itinéraire le plus populaire est depuis Marrakech, un trajet panoramique de 2,5 heures à travers les forêts d'arganiers.\n\nUne fois à Essaouira, notre service à l'heure vous permet d'explorer les remparts de la Skala de la Ville, de parcourir les galeries de la médina ou de vous aventurer sur les plages voisines pour le kitesurf.",
+      "meta": {
+        "title": "Service de Chauffeur à Essaouira — Transferts Privés depuis Marrakech",
+        "description": "Services de chauffeur premium vers et depuis Essaouira. Transferts privés depuis Marrakech et Agadir, visites côtières et transport de luxe dans la Cité du Vent du Maroc."
+      },
+      "landmarks": {
+        "essaouira-medina": {
+          "name": "Médina d'Essaouira",
+          "type": "médina"
+        },
+        "mogador-island": {
+          "name": "Île de Mogador",
+          "type": "île"
+        },
+        "skala-port": {
+          "name": "Skala du Port",
+          "type": "fortification"
+        },
+        "argan-forest": {
+          "name": "Forêt d'Arganiers",
+          "type": "nature"
+        }
+      },
+      "faq": {
+        "nearest-airport": {
+          "question": "Quel est l'aéroport le plus proche d'Essaouira ?",
+          "answer": "L'aéroport Essaouira Mogador reçoit des vols limités. La plupart des visiteurs arrivent via l'aéroport Marrakech Menara, à environ 175 kilomètres. Notre transfert privé depuis Marrakech dure environ 2,5 heures et traverse de belles forêts d'arganiers et la campagne berbère."
+        },
+        "wind-season": {
+          "question": "Quelle est la meilleure période pour visiter Essaouira ?",
+          "answer": "Essaouira jouit d'un climat doux toute l'année, bien que les célèbres alizés soient les plus forts d'avril à septembre, ce qui en fait un paradis pour les kitesurfeurs. Pour des conditions plus calmes, octobre à mars offre des températures agréables et des brises plus douces."
+        },
+        "english-speaking": {
+          "question": "Des chauffeurs anglophones sont-ils disponibles pour les transferts Essaouira ?",
+          "answer": "Oui, tous nos chauffeurs desservant Essaouira parlent couramment l'anglais et le français. Ils sont expérimentés sur les routes entre Essaouira, Marrakech et Agadir et peuvent commenter les paysages et les villages que vous traversez."
+        },
+        "medina-tours": {
+          "question": "Votre chauffeur peut-il aider à organiser une visite de la médina d'Essaouira ?",
+          "answer": "Bien que nos chauffeurs se concentrent sur le transport, ils peuvent recommander des guides locaux de confiance pour des visites à pied de la médina d'Essaouira. Ils vous déposeront à la porte la plus pratique et organiseront une heure et un lieu de prise en charge précis pour votre retour."
+        }
+      }
+    },
+    "chefchaouen": {
+      "name": "Chefchaouen",
+      "tagline": "La Perle Bleue",
+      "intro": "Nichée dans les montagnes du Rif, Chefchaouen est l'une des destinations les plus photogéniques du Maroc. Sa médina, peinte dans toutes les nuances de bleu, cascade le long de la montagne sous les pics jumeaux qui donnent à la ville son nom. Atteindre Chefchaouen confortablement se fait idéalement par transfert privé.\n\nChefchaouen n'a pas d'aéroport et les options de transport public sont limitées. Les approches les plus populaires sont depuis Tanger (environ 2 heures) et depuis Fès (environ 4 heures). Les deux routes traversent des paysages montagneux époustouflants.\n\nUne fois arrivé, Chefchaouen récompense l'exploration à pied. Notre service de chauffeur à l'heure peut vous emmener aux cascades d'Akchour, au Pont de Dieu ou à la Mosquée Espagnole pour le coucher du soleil.",
+      "meta": {
+        "title": "Service de Chauffeur à Chefchaouen — Transferts Privés et Excursions en Montagne",
+        "description": "Services de chauffeur de luxe vers Chefchaouen. Transferts privés depuis Tanger et Fès, excursions en montagne et transport fiable vers la Perle Bleue du Maroc."
+      },
+      "landmarks": {
+        "blue-medina": {
+          "name": "Médina Bleue",
+          "type": "médina"
+        },
+        "ras-el-maa": {
+          "name": "Cascade Ras el-Maa",
+          "type": "cascade"
+        },
+        "spanish-mosque": {
+          "name": "Mosquée Espagnole",
+          "type": "point de vue"
+        },
+        "kasbah-chefchaouen": {
+          "name": "Kasbah de Chefchaouen",
+          "type": "kasbah"
+        }
+      },
+      "faq": {
+        "nearest-airport": {
+          "question": "Quel est l'aéroport le plus proche de Chefchaouen ?",
+          "answer": "Les aéroports les plus proches sont l'aéroport Tanger Ibn Battouta (115 km, environ 2 heures) et l'aéroport Fès-Saïss (210 km, environ 4 heures). Nous assurons des transferts privés confortables depuis les deux aéroports directement vers votre hébergement à Chefchaouen."
+        },
+        "mountain-roads": {
+          "question": "Les routes de montagne vers Chefchaouen sont-elles sûres ?",
+          "answer": "Les routes vers Chefchaouen sont bien entretenues et goudronnées. Cependant, elles comportent des virages importants et des changements d'altitude à travers les montagnes du Rif. Nos chauffeurs sont très expérimentés sur ces itinéraires et conduisent avec le plus grand soin."
+        },
+        "english-speaking": {
+          "question": "Mon chauffeur parlera-t-il anglais ?",
+          "answer": "Oui, tous nos chauffeurs parlent couramment l'anglais et le français. Ceux qui desservent régulièrement la route de Chefchaouen connaissent également bien la région des montagnes du Rif et peuvent partager des informations sur les villages berbères et les paysages."
+        },
+        "photography-tours": {
+          "question": "Pouvez-vous organiser des visites photographiques autour de Chefchaouen ?",
+          "answer": "Notre service de chauffeur à l'heure est idéal pour les passionnés de photographie. Votre chauffeur peut vous emmener aux meilleurs points de vue surplombant la médina bleue, à la Mosquée Espagnole à l'heure dorée et aux cascades d'Akchour, en chronométrant chaque arrêt pour une lumière optimale."
+        }
+      }
+    },
+    "merzouga": {
+      "name": "Merzouga",
+      "tagline": "Porte du Sahara",
+      "intro": "Merzouga se situe au bord des dunes de l'Erg Chebbi, où le Sahara doré s'étend à l'horizon en vagues de sable imposantes. Ce petit village est le point de départ des expériences désertiques les plus emblématiques du Maroc. Nos services de chauffeur comblent la distance entre les villes du Maroc et ce paradis désertique reculé.\n\nAtteindre Merzouga nécessite un voyage de distance considérable, le plus souvent depuis Marrakech via Ouarzazate et la vallée du Dadès. Ce trajet de 8 heures traverse le Haut Atlas et traverse certains des paysages les plus spectaculaires du Maroc.\n\nUne fois au bord du Sahara, notre service s'étend à la coordination de votre arrivée au camp désertique et à l'organisation de votre transfert de départ.",
+      "meta": {
+        "title": "Service de Chauffeur vers Merzouga — Transferts Privés Désert du Sahara",
+        "description": "Services de chauffeur premium vers Merzouga et le désert du Sahara. Transferts privés depuis Marrakech, circuits désertiques de plusieurs jours et transport de luxe vers les dunes de l'Erg Chebbi."
+      },
+      "landmarks": {
+        "erg-chebbi-dunes": {
+          "name": "Dunes de l'Erg Chebbi",
+          "type": "désert"
+        },
+        "gnawa-village": {
+          "name": "Village Gnawa de Khamlia",
+          "type": "village"
+        },
+        "dayet-srji-lake": {
+          "name": "Lac Dayet Srji",
+          "type": "lac"
+        }
+      },
+      "faq": {
+        "nearest-airport": {
+          "question": "Quel est l'aéroport le plus proche de Merzouga ?",
+          "answer": "L'aéroport le plus proche est l'aéroport Errachidia Moulay Ali Chérif, à environ 130 kilomètres de Merzouga. Cependant, la plupart des visiteurs atterrissent à Marrakech ou Fès et organisent un transfert privé, ce qui leur permet de profiter des paysages spectaculaires des montagnes de l'Atlas."
+        },
+        "desert-conditions": {
+          "question": "Quels véhicules conviennent au désert ?",
+          "answer": "Pour les trajets vers Merzouga, nous recommandons nos options SUV ou SUV de luxe, qui gèrent le terrain varié entre les montagnes et le désert avec aisance. Tous nos véhicules sont bien entretenus avec la climatisation essentielle pour le climat désertique."
+        },
+        "english-speaking": {
+          "question": "Vos chauffeurs de transfert désertique parlent-ils anglais ?",
+          "answer": "Oui, tous nos chauffeurs parlent couramment l'anglais et le français. Ceux assignés aux routes désertiques ont une connaissance approfondie de la géographie de la région, de la culture berbère et des meilleurs points d'arrêt."
+        },
+        "camel-trekking": {
+          "question": "Pouvez-vous coordonner la randonnée à dos de chameau avec le transfert ?",
+          "answer": "Absolument. Nous travaillons en étroite collaboration avec des opérateurs de camps désertiques réputés pour que le timing de votre randonnée à dos de chameau s'aligne parfaitement avec votre arrivée. Votre chauffeur vous déposera au point de rencontre au bord des dunes."
+        }
+      }
+    },
+    "meknes": {
+      "name": "Meknès",
+      "tagline": "La Capitale Ismaïlienne",
+      "intro": "Meknès, l'une des quatre villes impériales du Maroc, porte l'héritage du Sultan Moulay Ismaïl, qui la concevait comme une rivale de Versailles. Aujourd'hui, la ville récompense les visiteurs avec ses portes monumentales, ses vastes greniers et une médina qui se sent authentique et paisible.\n\nBien que Meknès n'ait pas son propre aéroport commercial, elle est facilement accessible par transfert privé depuis Fès (à seulement 60 kilomètres) ou depuis Rabat et Casablanca. Nos chauffeurs combinent fréquemment une visite de Meknès avec un arrêt aux ruines romaines de Volubilis.\n\nDans la ville, la grande porte Bab Mansour, le Mausolée de Moulay Ismaïl et les extraordinaires greniers Heri es-Souani sont tous des incontournables.",
+      "meta": {
+        "title": "Service de Chauffeur à Meknès — Visites de la Cité Impériale et Transferts",
+        "description": "Services de chauffeur professionnels à Meknès. Visites de la cité impériale, transferts depuis Fès et excursions privées aux ruines romaines de Volubilis."
+      },
+      "landmarks": {
+        "bab-mansour": {
+          "name": "Bab Mansour",
+          "type": "porte"
+        },
+        "mausoleum-moulay-ismail": {
+          "name": "Mausolée de Moulay Ismaïl",
+          "type": "mausolée"
+        },
+        "heri-es-souani": {
+          "name": "Heri es-Souani",
+          "type": "bâtiment historique"
+        }
+      },
+      "faq": {
+        "best-time-to-visit": {
+          "question": "Quelle est la meilleure période pour visiter Meknès ?",
+          "answer": "Meknès jouit d'un climat méditerranéen avec des étés chauds et secs et des hivers doux. Le printemps (mars à mai) et l'automne (septembre à novembre) sont idéaux pour les visites, avec des températures confortables et moins de foules."
+        },
+        "language-spoken": {
+          "question": "Quelles langues parlent vos chauffeurs à Meknès ?",
+          "answer": "Nos chauffeurs dans la région de Meknès parlent couramment l'anglais et le français, et beaucoup parlent également l'arabe et l'espagnol. Ils connaissent l'histoire impériale de la ville et peuvent fournir un contexte lors de vos visites de ses grands monuments."
+        },
+        "what-to-see": {
+          "question": "Quelles sont les attractions incontournables de Meknès ?",
+          "answer": "Les sites essentiels de Meknès comprennent la magnifique porte Bab Mansour, le Mausolée de Moulay Ismaïl et les vastes greniers Heri es-Souani. Nous recommandons également fortement de combiner votre visite de Meknès avec les ruines romaines voisines de Volubilis."
+        }
+      }
+    },
+    "ouarzazate": {
+      "name": "Ouarzazate",
+      "tagline": "La Porte du Désert",
+      "intro": "Ouarzazate se situe au carrefour entre le Haut Atlas et le désert du Sahara, gagnant sa réputation de porte d'entrée vers le grand sud marocain. Connue comme le Hollywood de l'Afrique, cette ville ensoleillée abrite les Studios Atlas. Nos services de chauffeur offrent le moyen idéal d'atteindre et d'explorer ce paysage cinématographique.\n\nLe voyage de Marrakech à Ouarzazate par le col du Tizi n'Tichka est l'un des trajets les plus célébrés du Maroc, traversant les forêts de cèdres de l'Atlas et les villages berbères.\n\nÀ proximité, la kasbah d'Aït Benhaddou, classée au patrimoine mondial de l'UNESCO, est l'un des sites les plus remarquables du Maroc.",
+      "meta": {
+        "title": "Service de Chauffeur à Ouarzazate — Transferts Porte du Désert et Visites",
+        "description": "Services de chauffeur de luxe à Ouarzazate. Transferts privés depuis Marrakech par l'Atlas, visites d'Aït Benhaddou et transport porte du désert."
+      },
+      "landmarks": {
+        "ait-benhaddou": {
+          "name": "Aït Benhaddou",
+          "type": "kasbah"
+        },
+        "atlas-studios": {
+          "name": "Studios Atlas",
+          "type": "studio"
+        },
+        "taourirt-kasbah": {
+          "name": "Kasbah Taourirt",
+          "type": "kasbah"
+        }
+      },
+      "faq": {
+        "film-studios": {
+          "question": "Pouvez-vous organiser une visite des studios de cinéma à Ouarzazate ?",
+          "answer": "Oui, nos chauffeurs peuvent vous emmener aux Studios Atlas et aux Studios CLA, où des blockbusters tels que Gladiator et Game of Thrones ont été tournés. Des visites des studios sont disponibles quotidiennement."
+        },
+        "desert-gateway": {
+          "question": "Ouarzazate est-elle une bonne base pour des excursions au désert ?",
+          "answer": "Ouarzazate est une excellente base pour explorer la vallée du Draa, les gorges du Dadès et les gorges du Todra. D'ici, vous pouvez continuer vers le désert du Sahara à Merzouga ou M'Hamid."
+        },
+        "what-to-see": {
+          "question": "Que devrais-je voir à Ouarzazate et aux alentours ?",
+          "answer": "Les sites essentiels comprennent la kasbah d'Aït Benhaddou classée à l'UNESCO, la Kasbah Taourirt au centre-ville et les Studios Atlas. L'oasis de Fint et la Vallée des Roses (en saison d'avril à mai) sont également des excursions remarquables."
+        }
+      }
+    },
+    "ifrane": {
+      "name": "Ifrane",
+      "tagline": "La Suisse du Maroc",
+      "intro": "Ifrane surprend les visiteurs par son architecture alpine, ses jardins soignés et ses forêts de cèdres qui semblent transplantées d'une ville de montagne européenne. Située à 1 650 mètres dans les montagnes du Moyen Atlas, cette ville propre et ordonnée offre un contraste saisissant avec les paysages désertiques du Maroc.\n\nBien qu'Ifrane n'ait pas d'aéroport, elle est facilement accessible par transfert privé depuis Fès (à seulement 75 kilomètres) ou depuis Meknès. Le trajet traverse des collines vallonnées et des forêts de cèdres denses où les macaques de Barbarie peuvent souvent être aperçus.\n\nIfrane est le lieu idéal pour des excursions d'une journée depuis Fès ou des week-ends de détente dans le Moyen Atlas.",
+      "meta": {
+        "title": "Service de Chauffeur à Ifrane — Transferts Montagne et Visites de l'Atlas",
+        "description": "Services de chauffeur premium à Ifrane. Transferts privés depuis Fès, excursions dans le Moyen Atlas, randonnées dans la forêt de cèdres et transport vers la ville alpine du Maroc."
+      },
+      "landmarks": {
+        "cedar-forest": {
+          "name": "Forêt de Cèdres de l'Atlas",
+          "type": "nature"
+        },
+        "ifrane-lake": {
+          "name": "Lac d'Ifrane",
+          "type": "lac"
+        },
+        "lion-statue": {
+          "name": "Lion de Pierre d'Ifrane",
+          "type": "monument"
+        }
+      },
+      "faq": {
+        "best-time-to-visit": {
+          "question": "Quelle est la meilleure période pour visiter Ifrane ?",
+          "answer": "Ifrane est une destination toute l'année. L'été (juin à septembre) offre des températures fraîches quand le reste du Maroc est en canicule. L'hiver (décembre à février) apporte la neige à Michlifen, ce qui en fait un lieu populaire pour le ski."
+        },
+        "skiing-season": {
+          "question": "Le ski est-il possible près d'Ifrane ?",
+          "answer": "Oui, la station de ski de Michlifen près d'Ifrane fonctionne pendant les mois d'hiver, généralement de décembre à mars, selon les chutes de neige. Nos chauffeurs peuvent vous transférer depuis Fès ou Meknès vers la zone de ski."
+        },
+        "what-to-see": {
+          "question": "Quelles sont les principales attractions d'Ifrane ?",
+          "answer": "Les points forts d'Ifrane comprennent les vastes forêts de cèdres abritant des macaques de Barbarie, les lacs pittoresques de Dayet Aoua et d'Ifrane, et la célèbre sculpture du lion en pierre au centre-ville."
+        }
+      }
+    },
+    "el-jadida": {
+      "name": "El Jadida",
+      "tagline": "Le Joyau Portugais",
+      "intro": "El Jadida, connue historiquement sous le nom de Mazagan, préserve une remarquable cité fortifiée portugaise dans ses murs, obtenant le classement au patrimoine mondial de l'UNESCO pour cet héritage architectural unique. La citerne portugaise atmosphérique, les remparts robustes surplombant l'Atlantique et la plage tranquille de Sidi Bouzid font d'El Jadida une destination enrichissante.\n\nSituée à environ 100 kilomètres au sud de Casablanca, El Jadida est une excursion d'une journée idéale en voiture privée. Le trajet prend un peu plus d'une heure dans le confort.\n\nLe littoral d'El Jadida s'étend vers le sud avec de belles plages et le luxueux Mazagan Beach Resort.",
+      "meta": {
+        "title": "Service de Chauffeur à El Jadida — Transferts Côtiers et Visites du Patrimoine",
+        "description": "Services de chauffeur professionnels à El Jadida. Transferts privés depuis Casablanca, visites de la Citerne Portugaise et transport côtier le long de la côte atlantique du Maroc."
+      },
+      "landmarks": {
+        "portuguese-cistern": {
+          "name": "Citerne Portugaise",
+          "type": "bâtiment historique"
+        },
+        "el-jadida-ramparts": {
+          "name": "Remparts d'El Jadida",
+          "type": "fortification"
+        },
+        "sidi-bouzid-beach": {
+          "name": "Plage de Sidi Bouzid",
+          "type": "plage"
+        }
+      },
+      "faq": {
+        "best-time-to-visit": {
+          "question": "Quelle est la meilleure période pour visiter El Jadida ?",
+          "answer": "El Jadida jouit d'un climat atlantique doux toute l'année. L'été (juin à septembre) est le plus chaud et idéal pour les visites de plage. Le printemps et l'automne offrent des températures confortables pour explorer les fortifications portugaises et la médina."
+        },
+        "portuguese-heritage": {
+          "question": "Quel est l'héritage portugais d'El Jadida ?",
+          "answer": "El Jadida était un comptoir commercial portugais de 1502 à 1769, connu sous le nom de Mazagan. La cité fortifiée qu'ils ont construite, y compris l'extraordinaire citerne souterraine, l'église de l'Assomption et les remparts en forme d'étoile, est magnifiquement préservée et classée au patrimoine mondial de l'UNESCO."
+        },
+        "what-to-see": {
+          "question": "Quels sont les sites incontournables d'El Jadida ?",
+          "answer": "La Citerne Portugaise est le point culminant incontesté, une chambre souterraine d'une beauté envoûtante avec des colonnes reflétées dans l'eau peu profonde. Les remparts offrent des vues panoramiques sur l'océan et la vieille ville. La plage de Sidi Bouzid offre un cadre charmant pour un déjeuner en bord de mer."
+        }
+      }
+    }
+  },
+  "services": {
+    "airport-transfers": {
+      "name": "Transferts Aéroport",
+      "shortDescription": "Prises en charge et dépose sans stress dans tous les aéroports marocains.",
+      "description": "Notre service de transfert aéroport élimine le stress de l'arrivée et du départ. Un chauffeur professionnel suit votre vol en temps réel, vous accueille aux arrivées avec un panneau nominatif, vous aide avec vos bagages et vous escorte vers un véhicule premium en attente.",
+      "meta": {
+        "title": "Transferts Aéroport au Maroc — Prises en Charge Chauffeur Privé",
+        "description": "Services de transfert aéroport professionnels à travers le Maroc. Suivi des vols, accueil personnalisé et véhicules de luxe à Marrakech, Casablanca, Fès, Tanger et plus."
+      },
+      "steps": [
+        "Partagez vos détails de vol et votre destination — nous gérons le reste.",
+        "Votre chauffeur suit votre vol et vous attend aux arrivées avec un panneau nominatif.",
+        "Détendez-vous dans un véhicule premium pendant votre transfert direct vers votre hôtel ou riad."
+      ],
+      "faq": {
+        "booking-advance": {
+          "question": "Combien de temps à l'avance dois-je réserver un transfert aéroport ?",
+          "answer": "Nous recommandons de réserver au moins 24 heures à l'avance pour garantir la disponibilité du véhicule. Cependant, nous acceptons les demandes du jour même dans la mesure du possible. Pour les voyages en haute saison, réserver plusieurs jours à l'avance est conseillé."
+        },
+        "flight-tracking": {
+          "question": "Que se passe-t-il si mon vol est retardé ?",
+          "answer": "Nous suivons tous les vols en temps réel. Si votre vol est retardé, votre chauffeur s'adapte automatiquement sans frais supplémentaires. Pas besoin d'appeler ou de nous prévenir — nous serons aux arrivées quand vous atterrirez."
+        },
+        "meet-and-greet": {
+          "question": "Comment trouverai-je mon chauffeur à l'aéroport ?",
+          "answer": "Votre chauffeur vous attendra dans le hall d'arrivée avec un panneau portant votre nom. Vous recevrez également un message de confirmation avec le nom et le numéro de portable de votre chauffeur avant votre vol."
+        }
+      }
+    },
+    "hourly-chauffeur": {
+      "name": "Chauffeur à l'Heure",
+      "shortDescription": "Un chauffeur dédié à votre disposition, à l'heure.",
+      "description": "Notre service de chauffeur à l'heure met à votre disposition un chauffeur professionnel et un véhicule premium. Idéal pour l'exploration de la ville, le shopping, les réunions d'affaires ou tout itinéraire nécessitant de la flexibilité.",
+      "meta": {
+        "title": "Service de Chauffeur à l'Heure au Maroc — Chauffeur Privé à la Demande",
+        "description": "Réservez un chauffeur privé à l'heure au Maroc. Horaires flexibles, véhicules premium et chauffeurs professionnels pour visites, shopping et voyages d'affaires."
+      },
+      "steps": [
+        "Choisissez votre ville, lieu de prise en charge et nombre d'heures nécessaires.",
+        "Votre chauffeur arrive dans un véhicule premium, prêt pour votre itinéraire.",
+        "Dirigez votre chauffeur vers n'importe quelle destination — il attend entre les arrêts et s'adapte à votre rythme."
+      ],
+      "faq": {
+        "minimum-hours": {
+          "question": "Quelle est la durée minimale de réservation pour le service de chauffeur à l'heure ?",
+          "answer": "La réservation minimale est de 3 heures. Cela fournit assez de temps pour une visite confortable de la ville ou une série de courses. Les prolongations peuvent être organisées sur place avec votre chauffeur."
+        },
+        "overtime-policy": {
+          "question": "Et si j'ai besoin de mon chauffeur plus longtemps que prévu ?",
+          "answer": "Les prolongations sont faciles. Informez simplement votre chauffeur, et les heures supplémentaires sont facturées au même tarif horaire. Nous confirmerons la prolongation et le total mis à jour par message."
+        },
+        "chauffeur-language": {
+          "question": "Mon chauffeur peut-il servir de guide ?",
+          "answer": "Nos chauffeurs connaissent bien les attractions locales et peuvent offrir des recommandations et du contexte. Bien qu'ils ne soient pas des guides touristiques agréés, leur familiarité avec chaque ville en fait des compagnons précieux pour l'exploration."
+        }
+      }
+    },
+    "city-to-city-transfers": {
+      "name": "Transferts Interurbains",
+      "shortDescription": "Transferts interurbains privés à travers tout le Maroc.",
+      "description": "Voyagez entre les villes du Maroc dans le confort d'un véhicule privé avec un chauffeur professionnel. Notre service de transfert interurbain couvre tous les itinéraires majeurs. Profitez d'arrêts panoramiques en chemin et arrivez rafraîchi à votre destination.",
+      "meta": {
+        "title": "Transferts Interurbains au Maroc — Transport Privé entre Villes",
+        "description": "Transferts interurbains privés à travers le Maroc. Voyages confortables entre Marrakech, Casablanca, Fès, Tanger et toutes les destinations majeures."
+      },
+      "steps": [
+        "Sélectionnez vos villes de départ et d'arrivée, avec des arrêts optionnels en route.",
+        "Nous assignons le véhicule idéal et un chauffeur expérimenté qui connaît l'itinéraire.",
+        "Profitez d'un voyage confortable et panoramique avec des rafraîchissements et des arrêts à votre demande."
+      ],
+      "faq": {
+        "luggage-included": {
+          "question": "Les bagages sont-ils inclus dans le prix du transfert ?",
+          "answer": "Oui, les bagages standard sont inclus sans frais supplémentaires. Si vous avez des articles surdimensionnés comme des clubs de golf ou des planches de surf, veuillez le mentionner lors de la réservation."
+        },
+        "stops-allowed": {
+          "question": "Puis-je faire des arrêts en chemin ?",
+          "answer": "Absolument. Nos transferts interurbains incluent des arrêts photo et des pauses confort raisonnables sans frais supplémentaires. Pour des arrêts prolongés aux attractions, nous vous demandons simplement de le mentionner lors de la réservation."
+        },
+        "one-way-pricing": {
+          "question": "Les transferts sont-ils facturés aller simple ou aller-retour ?",
+          "answer": "Nos prix sont indiqués par trajet, aller simple. Si vous avez besoin d'un aller-retour, nous offrons un tarif réduit pour le retour. Les prix sont tout compris sans frais cachés pour les péages, le carburant ou le pourboire du chauffeur."
+        }
+      }
+    },
+    "multi-day-tours": {
+      "name": "Circuits de Plusieurs Jours",
+      "shortDescription": "Voyages privés prolongés à travers les plus beaux paysages du Maroc.",
+      "description": "Notre service de circuits de plusieurs jours fournit un chauffeur dédié et un véhicule pour des voyages de deux jours ou plus. Des expéditions au Sahara aux circuits des villes impériales, nous créons des itinéraires sur mesure qui mettent en valeur la diversité du Maroc.",
+      "meta": {
+        "title": "Circuits Privés de Plusieurs Jours au Maroc — Itinéraires Chauffeur Sur Mesure",
+        "description": "Circuits chauffeur de plusieurs jours personnalisés à travers le Maroc. Expéditions au Sahara, circuits des villes impériales et itinéraires sur mesure avec chauffeur dédié."
+      },
+      "steps": [
+        "Dites-nous vos intérêts, dates préférées et ville de départ — nous concevons un itinéraire sur mesure.",
+        "Un chauffeur dédié et un véhicule sont assignés pour toute la durée de votre circuit.",
+        "Voyagez à votre rythme avec la flexibilité d'ajuster les arrêts, les horaires et les itinéraires chaque jour."
+      ],
+      "faq": {
+        "itinerary-customization": {
+          "question": "Puis-je personnaliser l'itinéraire du circuit de plusieurs jours ?",
+          "answer": "Chaque circuit de plusieurs jours est entièrement personnalisable. Vous choisissez les destinations, le rythme et le type d'expériences que vous souhaitez. Nous proposons des itinéraires suggérés comme point de départ, mais le programme final est façonné entièrement autour de vos préférences."
+        },
+        "driver-accommodation": {
+          "question": "Où séjourne le chauffeur pendant les circuits de plusieurs jours ?",
+          "answer": "Nous organisons et couvrons l'hébergement de votre chauffeur tout au long du circuit. Il séjourne à proximité sans jamais empiéter sur votre intimité. Ceci est inclus dans le prix du circuit."
+        },
+        "cancellation-policy": {
+          "question": "Quelle est la politique d'annulation pour les circuits de plusieurs jours ?",
+          "answer": "L'annulation gratuite est disponible jusqu'à 72 heures avant la date de début du circuit. Les annulations dans les 72 heures peuvent entraîner des frais équivalents à un jour de location."
+        }
+      }
+    },
+    "event-transportation": {
+      "name": "Transport Événementiel",
+      "shortDescription": "Transport coordonné pour mariages, conférences et occasions spéciales.",
+      "description": "Des mariages intimes dans les riads de Marrakech aux grandes conférences d'entreprise à Casablanca, notre service de transport événementiel garantit que chaque invité arrive à l'heure et avec style. Nous coordonnons plusieurs véhicules et gérons des horaires complexes.",
+      "meta": {
+        "title": "Transport Événementiel au Maroc — Mariages, Conférences et Groupes",
+        "description": "Transport événementiel professionnel à travers le Maroc. Navettes de mariage, transferts de conférence, événements d'entreprise et transport de groupe coordonné."
+      },
+      "steps": [
+        "Partagez les détails de votre événement — date, lieu, nombre d'invités et programme.",
+        "Nous concevons un plan de transport avec les bons véhicules, itinéraires et horaires.",
+        "Le jour J, un coordinateur dédié s'assure que chaque véhicule respecte le programme."
+      ],
+      "faq": {
+        "group-size": {
+          "question": "Quelle taille de groupe pouvez-vous accueillir ?",
+          "answer": "Nous pouvons accueillir des groupes de toute taille, des rassemblements intimes de quatre personnes aux événements de plusieurs centaines d'invités. Notre flotte comprend des berlines, SUV, vans, sprinters, minibus et autocars."
+        },
+        "wedding-packages": {
+          "question": "Proposez-vous des forfaits transport mariage spéciaux ?",
+          "answer": "Oui, nous fournissons un transport mariage complet incluant le service de voiture de la mariée, les navettes invités entre les lieux de cérémonie et de réception, et les transferts aéroport pour les invités arrivants."
+        },
+        "corporate-billing": {
+          "question": "Pouvez-vous fournir une facturation d'entreprise pour les événements ?",
+          "answer": "Nous offrons une facturation d'entreprise complète avec des factures détaillées, des références de bon de commande et des rapports post-événement. Les clients d'entreprise réguliers bénéficient d'une gestion de compte dédiée."
+        }
+      }
+    },
+    "vip-concierge": {
+      "name": "Conciergerie VIP",
+      "shortDescription": "Gestion de voyage haut de gamme pour les clients les plus exigeants.",
+      "description": "Notre service de conciergerie VIP va au-delà du transport, offrant une expérience complète de gestion de voyage. Des réservations de restaurant aux visites privées de musées, en passant par les transferts en hélicoptère et les charters de yacht, votre concierge dédié anticipe vos besoins.",
+      "meta": {
+        "title": "Service de Conciergerie VIP au Maroc — Gestion de Voyage de Luxe",
+        "description": "Services de conciergerie VIP exclusifs au Maroc. Gestion de voyage personnelle, réservations de restaurant, expériences privées et service de chauffeur de luxe haut de gamme."
+      },
+      "steps": [
+        "Contactez-nous avec vos dates de voyage et préférences — un concierge personnel vous est assigné.",
+        "Votre concierge crée un programme sur mesure de transport, restauration et expériences.",
+        "Profitez d'un voyage orchestré sans faille avec un support 24h/24 et une assistance sur place."
+      ],
+      "faq": {
+        "concierge-scope": {
+          "question": "Que comprend le service de conciergerie VIP ?",
+          "answer": "Au-delà du transport chauffeur de luxe, notre service de conciergerie comprend les réservations de restaurant et d'hôtel, les visites guidées privées, l'accès à des lieux et événements exclusifs, l'assistance shopping et la coordination avec les prestataires locaux."
+        },
+        "24-hour-availability": {
+          "question": "Le concierge est-il disponible 24h/24 ?",
+          "answer": "Oui, votre concierge personnel est disponible 24 heures sur 24 pendant votre séjour. Qu'il s'agisse d'une recommandation de restaurant en fin de soirée ou d'un changement d'itinéraire de dernière minute, un simple message ou appel suffit."
+        },
+        "reservation-assistance": {
+          "question": "Pouvez-vous obtenir des réservations dans des restaurants exclusifs ?",
+          "answer": "Nous entretenons des relations avec les meilleurs restaurants, riads et hôtels du Maroc. Notre équipe de conciergerie peut obtenir des tables dans les établissements les plus recherchés et organiser des expériences de restauration privées."
+        }
+      }
+    }
+  },
+  "fleet": {
+    "sedan": {
+      "name": "Mercedes Classe E / BMW Série 5",
+      "class": "Berline Executive",
+      "shortDescription": "Confort raffiné pour jusqu'à 3 passagers.",
+      "description": "Notre berline executive offre l'équilibre parfait entre élégance et efficacité. Idéale pour les transferts aéroport, les réunions d'affaires et les visites de ville, la Mercedes Classe E ou équivalent offre une conduite douce et silencieuse avec un espace généreux pour les jambes.",
+      "meta": {
+        "title": "Berline Executive — Mercedes Classe E Service de Chauffeur au Maroc",
+        "description": "Réservez une Mercedes Classe E ou BMW Série 5 avec chauffeur professionnel au Maroc. Berline executive confortable pour les transferts aéroport, voyages d'affaires et visites de ville."
+      },
+      "features": {
+        "leather-seats": "Sièges en Cuir",
+        "climate-control": "Climatisation Bi-zone",
+        "wifi": "Wi-Fi Gratuit",
+        "bottled-water": "Eau en Bouteille",
+        "phone-charger": "Charge USB et Sans Fil"
+      }
+    },
+    "luxury-sedan": {
+      "name": "Mercedes Classe S / BMW Série 7",
+      "class": "Berline de Luxe",
+      "shortDescription": "Le summum de l'automobile privée pour jusqu'à 3 passagers.",
+      "description": "Pour ceux qui exigent le meilleur, notre berline de luxe offre une expérience de voyage inégalée. La Mercedes Classe S ou BMW Série 7 offre des sièges arrière exécutifs, des cabines ultra-silencieuses et les plus beaux matériaux.",
+      "meta": {
+        "title": "Berline de Luxe — Mercedes Classe S Service de Chauffeur au Maroc",
+        "description": "Découvrez le Maroc dans une Mercedes Classe S ou BMW Série 7 avec chauffeur privé. La berline de luxe ultime pour voyages VIP et transport diplomatique."
+      },
+      "features": {
+        "premium-leather": "Cuir Nappa Premium",
+        "rear-climate-zone": "Zone Climatique Arrière",
+        "wifi": "Wi-Fi Gratuit",
+        "champagne-service": "Service Champagne",
+        "privacy-partition": "Cloison de Confidentialité"
+      }
+    },
+    "suv": {
+      "name": "Mercedes GLE / BMW X5",
+      "class": "SUV Premium",
+      "shortDescription": "Confort spacieux avec capacité tout-terrain pour jusqu'à 5 passagers.",
+      "description": "Notre SUV premium combine le raffinement d'un véhicule de luxe avec la hauteur de conduite élevée et la capacité de bagages nécessaires pour le terrain diversifié du Maroc.",
+      "meta": {
+        "title": "SUV Premium — Mercedes GLE Service de Chauffeur au Maroc",
+        "description": "Réservez un Mercedes GLE ou BMW X5 avec chauffeur au Maroc. SUV premium spacieux pour voyages en famille, routes de montagne et transport de luxe tout-terrain."
+      },
+      "features": {
+        "leather-seats": "Sièges en Cuir",
+        "climate-control": "Climatisation Tri-zone",
+        "wifi": "Wi-Fi Gratuit",
+        "bottled-water": "Eau en Bouteille",
+        "all-terrain": "Capacité Tout-Terrain"
+      }
+    },
+    "luxury-suv": {
+      "name": "Range Rover / Mercedes GLS",
+      "class": "SUV de Luxe",
+      "shortDescription": "Luxe suprême avec présence imposante pour jusqu'à 4 passagers.",
+      "description": "Le SUV de luxe représente la fusion ultime d'opulence et de capacité. Un Range Rover ou Mercedes GLS offre un espace intérieur expansif, les plus beaux matériaux et une formidable capacité tout-terrain.",
+      "meta": {
+        "title": "SUV de Luxe — Range Rover Service de Chauffeur au Maroc",
+        "description": "Voyagez au Maroc dans un Range Rover ou Mercedes GLS avec chauffeur privé. SUV de luxe pour circuits désertiques, transferts montagne et transport VIP."
+      },
+      "features": {
+        "premium-leather": "Cuir Nappa Premium",
+        "massage-seats": "Sièges Chauffants Massants",
+        "wifi": "Wi-Fi Gratuit",
+        "champagne-service": "Service Champagne",
+        "all-terrain": "Système Tout-Terrain Avancé"
+      }
+    },
+    "mercedes-v-class": {
+      "name": "Mercedes Classe V",
+      "class": "Van de Luxe",
+      "shortDescription": "Transport de groupe polyvalent dans un confort raffiné pour jusqu'à 6 passagers.",
+      "description": "La Mercedes Classe V est le choix idéal pour les familles, les petits groupes et les voyageurs avec des bagages généreux. Sa cabine spacieuse dispose de fauteuils capitaine, d'un espace de tête ample et d'une qualité de conduite rivalisant avec celle d'une berline de luxe.",
+      "meta": {
+        "title": "Mercedes Classe V — Van de Luxe Service de Chauffeur au Maroc",
+        "description": "Réservez une Mercedes Classe V avec chauffeur au Maroc. Van de luxe spacieux pour voyages en famille, circuits de groupe et transferts aéroport jusqu'à 6 passagers."
+      },
+      "features": {
+        "leather-seats": "Fauteuils Capitaine en Cuir",
+        "captain-chairs": "Sièges Individuels Inclinables",
+        "wifi": "Wi-Fi Gratuit",
+        "bottled-water": "Eau en Bouteille",
+        "sliding-doors": "Portes Coulissantes Électriques"
+      }
+    },
+    "sprinter": {
+      "name": "Mercedes Sprinter VIP",
+      "class": "Sprinter VIP",
+      "shortDescription": "Transport de groupe premium pour jusqu'à 12 passagers.",
+      "description": "Notre Mercedes Sprinter configuré VIP offre un transport de groupe de luxe avec l'espace pour s'étendre et les équipements pour profiter du voyage. Équipé de sièges inclinables, de commandes climatiques individuelles et d'une grande capacité de bagages.",
+      "meta": {
+        "title": "Mercedes Sprinter VIP — Service de Chauffeur Groupe au Maroc",
+        "description": "Réservez un Mercedes Sprinter VIP avec chauffeur au Maroc. Transport de groupe premium pour jusqu'à 12 passagers avec sièges inclinables et équipements de luxe."
+      },
+      "features": {
+        "reclining-seats": "Sièges Inclinables en Cuir",
+        "climate-control": "Climatisation Individuelle",
+        "wifi": "Wi-Fi Gratuit",
+        "usb-charging": "Ports de Charge USB",
+        "overhead-storage": "Rangement en Hauteur"
+      }
+    },
+    "minibus": {
+      "name": "Minibus de Luxe",
+      "class": "Minibus",
+      "shortDescription": "Transport de groupe confortable pour jusqu'à 20 passagers.",
+      "description": "Notre minibus de luxe est la solution idéale pour les groupes plus importants qui veulent le confort sans compromis. Équipé de sièges inclinables, d'un système de sonorisation et d'un espace bagages généreux.",
+      "meta": {
+        "title": "Minibus de Luxe — Service de Chauffeur Groupe au Maroc",
+        "description": "Réservez un minibus de luxe avec chauffeur professionnel au Maroc. Transport de groupe confortable pour jusqu'à 20 passagers pour circuits, événements et voyages d'entreprise."
+      },
+      "features": {
+        "reclining-seats": "Sièges Inclinables",
+        "climate-control": "Climatisation Intégrale",
+        "pa-system": "Système de Sonorisation",
+        "luggage-compartment": "Grand Compartiment à Bagages",
+        "usb-charging": "Ports de Charge USB"
+      }
+    },
+    "coach-bus": {
+      "name": "Autocar Grand Format",
+      "class": "Autocar",
+      "shortDescription": "Transport de grand groupe pour jusqu'à 45 passagers.",
+      "description": "Pour les plus grands groupes, notre autocar offre un transport professionnel avec tout le confort du tourisme moderne. Sièges inclinables, climatisation, système de sonorisation et toilettes à bord assurent le confort de chaque passager.",
+      "meta": {
+        "title": "Autocar Grand Format — Transport Grand Groupe au Maroc",
+        "description": "Réservez un autocar grand format avec chauffeur professionnel au Maroc. Transport de grand groupe pour jusqu'à 45 passagers pour conférences, circuits et événements."
+      },
+      "features": {
+        "reclining-seats": "Sièges Inclinables",
+        "climate-control": "Climatisation Intégrale",
+        "pa-system": "Système de Sonorisation et Divertissement",
+        "luggage-compartment": "Soute à Bagages",
+        "onboard-restroom": "Toilettes à Bord"
+      }
+    }
+  },
+  "routes": {
+    "marrakech-to-essaouira": {
+      "name": "Marrakech à Essaouira",
+      "description": "Le trajet de Marrakech à Essaouira s'élance vers l'ouest à travers les forêts d'arganiers du plateau de Haha avant de révéler la côte atlantique dans un crescendo spectaculaire de lumière et de vent. Ce trajet de 175 kilomètres dure environ 2,5 heures et figure parmi les routes les plus panoramiques du Maroc.",
+      "meta": {
+        "title": "Marrakech à Essaouira — Transfert Privé et Route Panoramique",
+        "description": "Transfert chauffeur privé de Marrakech à Essaouira. 175 km de route panoramique à travers les forêts d'arganiers jusqu'à la côte atlantique."
+      },
+      "highlights": {
+        "argan-oil-cooperatives": "Visitez les coopératives traditionnelles d'huile d'argan, où vous pouvez voir l'huile produite à la main.",
+        "atlantic-coast-views": "Le premier aperçu de l'océan Atlantique lorsque la route descend vers la côte est un moment véritablement mémorable.",
+        "essaouira-medina-arrival": "Arrivez aux murs fortifiés de la médina d'Essaouira classée à l'UNESCO, où le bruit des vagues déferlantes vous accueille."
+      },
+      "suggestedStops": {
+        "argan-forest-stop": "Point de Vue Forêt d'Arganiers",
+        "sidi-kaouki-beach": "Plage de Sidi Kaouki"
+      },
+      "faq": {
+        "road-conditions": {
+          "question": "Quelles sont les conditions routières sur cet itinéraire ?",
+          "answer": "La route de Marrakech à Essaouira est une autoroute à deux voies bien entretenue en excellent état. Le trajet est doux et confortable, avec de légères courbes à travers les forêts d'arganiers et un dernier tronçon le long de la côte."
+        },
+        "scenic-stops": {
+          "question": "Y a-t-il de bons endroits pour s'arrêter en chemin ?",
+          "answer": "Oui, plusieurs excellents arrêts sont disponibles. Les coopératives d'huile d'argan offrent un aperçu fascinant des méthodes de production traditionnelles. Votre chauffeur connaît les meilleurs emplacements et peut s'arrêter quand vous le souhaitez."
+        },
+        "return-same-day": {
+          "question": "Puis-je visiter Essaouira et revenir à Marrakech le même jour ?",
+          "answer": "Absolument. Une excursion d'une journée de Marrakech à Essaouira est l'une de nos réservations les plus populaires. Avec un départ matinal, vous aurez plusieurs heures pour explorer la médina et profiter de fruits de mer frais au port."
+        }
+      }
+    },
+    "casablanca-to-marrakech": {
+      "name": "Casablanca à Marrakech",
+      "description": "Le trajet de 240 kilomètres de Casablanca à Marrakech suit l'excellente autoroute à péage du Maroc, traversant les plaines fertiles de la Chaouia avant que les montagnes de l'Atlas n'apparaissent à l'horizon. Ce trajet de 2,5 à 3 heures est l'un des itinéraires les plus fréquentés du pays.",
+      "meta": {
+        "title": "Casablanca à Marrakech — Transfert Privé par Chauffeur",
+        "description": "Transfert chauffeur privé de Casablanca à Marrakech. 240 km sur autoroute en véhicules de luxe. Connexions aéroport et horaires flexibles."
+      },
+      "highlights": {
+        "highway-toll-road": "Voyagez sur la première autoroute à péage du Maroc, offrant un passage fluide et rapide entre les deux villes.",
+        "atlas-mountain-backdrop": "À l'approche de Marrakech, les sommets enneigés du Haut Atlas apparaissent à l'horizon sud.",
+        "settat-plains": "Traversez les vastes plaines agricoles de Settat, où oliviers et terres cultivées s'étendent à perte de vue."
+      },
+      "suggestedStops": {
+        "settat-rest-area": "Aire de Repos de Settat",
+        "benguerir-cafe": "Services Autoroutiers de Benguerir"
+      },
+      "faq": {
+        "highway-quality": {
+          "question": "L'autoroute Casablanca-Marrakech est-elle en bon état ?",
+          "answer": "L'autoroute A7 reliant Casablanca et Marrakech est l'une des meilleures d'Afrique. C'est une double voie bien entretenue avec des aires de repos, des stations-service et une signalisation claire."
+        },
+        "travel-time": {
+          "question": "Combien de temps dure le transfert ?",
+          "answer": "Le trajet dure généralement 2 heures et 45 minutes, selon les conditions de circulation autour de Casablanca. Nos chauffeurs surveillent le trafic en temps réel et peuvent ajuster l'heure de départ."
+        },
+        "one-way-available": {
+          "question": "Puis-je réserver un transfert aller simple ?",
+          "answer": "Oui, tous nos transferts interurbains sont disponibles en aller simple. Si vous avez besoin d'un retour, nous offrons un tarif aller-retour réduit."
+        }
+      }
+    },
+    "marrakech-to-merzouga": {
+      "name": "Marrakech à Merzouga",
+      "description": "L'épique trajet de 560 kilomètres de Marrakech à Merzouga traverse le Haut Atlas par le col du Tizi n'Tichka avant de descendre à travers les paysages spectaculaires d'Ouarzazate, de la vallée du Dadès et des gorges du Ziz. Cette odyssée de 8 heures est l'un des plus grands voyages routiers du Maroc.",
+      "meta": {
+        "title": "Marrakech à Merzouga — Transfert Privé et Circuit Désert",
+        "description": "Transfert chauffeur privé de Marrakech à Merzouga et le Sahara. 560 km à travers l'Atlas via Ouarzazate. Options multi-jours disponibles."
+      },
+      "highlights": {
+        "tizi-n-tichka-pass": "Traversez le col du Tizi n'Tichka à 2 260 mètres, la plus haute route goudronnée d'Afrique du Nord, avec des vues à couper le souffle.",
+        "ait-benhaddou-kasbah": "Arrêtez-vous à la kasbah d'Aït Benhaddou classée au patrimoine mondial de l'UNESCO, célèbre pour Lawrence d'Arabie et Gladiator.",
+        "dades-valley-scenery": "Traversez la vallée du Dadès, où gorges de roche rouge et oasis de palmiers créent un paysage d'un autre monde."
+      },
+      "suggestedStops": {
+        "ait-benhaddou-visit": "Kasbah d'Aït Benhaddou",
+        "ouarzazate-lunch": "Centre-Ville d'Ouarzazate"
+      },
+      "faq": {
+        "mountain-passes": {
+          "question": "Le col du Tizi n'Tichka est-il difficile à traverser ?",
+          "answer": "Le col du Tizi n'Tichka est une route goudronnée bien entretenue, bien qu'elle comporte de nombreux virages en épingle et des changements d'altitude importants. Nos chauffeurs parcourent régulièrement cette route et la gèrent avec une totale confiance."
+        },
+        "overnight-recommended": {
+          "question": "Devrais-je diviser le voyage en deux jours ?",
+          "answer": "Nous recommandons fortement de diviser ce trajet sur deux jours. Une nuit à Ouarzazate ou dans la vallée du Dadès vous permet de visiter Aït Benhaddou, d'explorer les gorges du Dadès et d'arriver aux dunes du Sahara reposé pour le coucher du soleil."
+        },
+        "desert-arrival-time": {
+          "question": "À quelle heure devrais-je arriver à Merzouga ?",
+          "answer": "Idéalement, nous planifions votre arrivée en fin d'après-midi, permettant de transférer vers votre camp désertique et de commencer une randonnée à dos de chameau au coucher du soleil dans les dunes de l'Erg Chebbi."
+        }
+      }
+    },
+    "tangier-to-chefchaouen": {
+      "name": "Tanger à Chefchaouen",
+      "description": "Le trajet de 115 kilomètres de Tanger à Chefchaouen grimpe de la côte méditerranéenne au cœur des montagnes du Rif, échangeant l'énergie urbaine pour la sérénité de la montagne. En environ deux heures, vous passez de l'effervescence cosmopolite de Tanger aux rues bleues d'une des destinations les plus photographiées du Maroc.",
+      "meta": {
+        "title": "Tanger à Chefchaouen — Transfert Privé en Montagne",
+        "description": "Transfert chauffeur privé de Tanger à Chefchaouen. 115 km de route panoramique en montagne à travers les montagnes du Rif vers la Perle Bleue du Maroc."
+      },
+      "highlights": {
+        "rif-mountain-scenery": "Montez à travers les vallées verdoyantes et les forêts de pins des montagnes du Rif, un paysage unique au Maroc.",
+        "rural-moroccan-villages": "Traversez des villages rifains traditionnels avec leurs maisons blanchies et leur agriculture en terrasses.",
+        "blue-city-approach": "Le premier aperçu de la médina bleue de Chefchaouen nichée contre la montagne est un spectacle inoubliable."
+      },
+      "suggestedStops": {
+        "tetouan-medina": "Médina de Tétouan",
+        "oued-laou-viewpoint": "Point de Vue Oued Laou"
+      },
+      "faq": {
+        "mountain-road-safety": {
+          "question": "Les routes de montagne vers Chefchaouen sont-elles sûres ?",
+          "answer": "La route de Tanger à Chefchaouen est entièrement goudronnée et en bon état. Bien qu'elle comporte des virages de montagne et des changements d'altitude, nos chauffeurs sont très expérimentés sur cet itinéraire."
+        },
+        "best-season": {
+          "question": "Quelle est la meilleure saison pour ce transfert ?",
+          "answer": "Cet itinéraire est magnifique toute l'année. Le printemps apporte des fleurs sauvages, l'été des forêts verdoyantes, l'automne une lumière dorée et l'hiver peut saupoudrer de neige les plus hauts sommets."
+        },
+        "return-options": {
+          "question": "Puis-je revenir à Tanger le même jour ?",
+          "answer": "Bien qu'un retour le même jour soit possible, nous recommandons au moins une nuit à Chefchaouen pour explorer la médina correctement. Si vous préférez une excursion d'une journée, un départ matinal de Tanger permet plusieurs heures dans la ville bleue."
+        }
+      }
+    },
+    "marrakech-to-ouarzazate": {
+      "name": "Marrakech à Ouarzazate",
+      "description": "Le trajet de 200 kilomètres de Marrakech à Ouarzazate par le col du Tizi n'Tichka est l'un des drives les plus spectaculaires du Maroc. La route grimpe à travers le Haut Atlas, serpentant entre villages berbères et collines en terrasses avant de descendre dans la beauté aride des paysages pré-sahariens du Maroc.",
+      "meta": {
+        "title": "Marrakech à Ouarzazate — Transfert Privé à Travers l'Atlas",
+        "description": "Transfert chauffeur privé de Marrakech à Ouarzazate par le col du Tizi n'Tichka. 200 km de traversée de l'Atlas avec arrêts à Aït Benhaddou."
+      },
+      "highlights": {
+        "tizi-n-tichka-pass": "Traversez l'emblématique col du Tizi n'Tichka à 2 260 mètres, avec des vues panoramiques sur la chaîne de l'Atlas.",
+        "high-atlas-panoramas": "Admirez le changement spectaculaire des vallées vertes et cultivées du nord aux paysages ocre du sud.",
+        "ait-benhaddou-kasbah": "Détour vers la magnifique Aït Benhaddou, village fortifié classé au patrimoine mondial de l'UNESCO."
+      },
+      "suggestedStops": {
+        "tichka-summit-viewpoint": "Point de Vue du Sommet Tichka",
+        "ait-benhaddou-visit": "Kasbah d'Aït Benhaddou"
+      },
+      "faq": {
+        "pass-altitude": {
+          "question": "Quelle est l'altitude du col du Tizi n'Tichka ?",
+          "answer": "Le col du Tizi n'Tichka atteint 2 260 mètres d'altitude, ce qui en fait le plus haut col routier majeur du Maroc. L'air est nettement plus frais au sommet. Nos véhicules sont bien adaptés à l'altitude."
+        },
+        "winter-conditions": {
+          "question": "Le col est-il accessible en hiver ?",
+          "answer": "Le col du Tizi n'Tichka est ouvert toute l'année, bien que les mois d'hiver puissent apporter des chutes de neige. En de rares occasions, le col peut être brièvement fermé pour déneigement. Nos chauffeurs portent des chaînes à neige en équipement standard pendant l'hiver."
+        },
+        "film-studio-stop": {
+          "question": "Pouvons-nous nous arrêter aux studios de cinéma à Ouarzazate ?",
+          "answer": "Bien sûr. Ouarzazate abrite les Studios Atlas, l'un des plus grands studios de cinéma du monde, où des productions de Gladiator à Game of Thrones ont été tournées. Votre chauffeur peut vous y emmener directement."
+        }
+      }
+    },
+    "casablanca-to-rabat": {
+      "name": "Casablanca à Rabat",
+      "description": "L'autoroute côtière de 90 kilomètres reliant Casablanca et Rabat est l'un des itinéraires interurbains les plus rapides et efficaces du Maroc. En environ une heure, vous voyagez entre la capitale économique et la capitale administrative du pays, avec des aperçus de l'océan Atlantique en chemin.",
+      "meta": {
+        "title": "Casablanca à Rabat — Transfert Privé Autoroute Côtière",
+        "description": "Transfert chauffeur privé de Casablanca à Rabat. 90 km d'autoroute côtière en environ une heure. Spécialistes des voyages d'affaires et diplomatiques."
+      },
+      "highlights": {
+        "coastal-highway": "Voyagez sur la moderne autoroute côtière A1, l'une des autoroutes les plus lisses et rapides du Maroc.",
+        "atlantic-ocean-views": "Profitez d'aperçus du littoral atlantique alors que l'autoroute longe la côte entre les deux villes.",
+        "capital-city-arrival": "Arrivez à Rabat, l'élégante capitale du Maroc, avec ses avenues bordées d'arbres et ses monuments historiques."
+      },
+      "suggestedStops": {
+        "mohammedia-seafront": "Front de Mer de Mohammedia",
+        "skirat-beach": "Plage de Skhirat"
+      },
+      "faq": {
+        "highway-tolls": {
+          "question": "Y a-t-il des péages sur l'autoroute Casablanca-Rabat ?",
+          "answer": "Oui, l'autoroute A1 est une route à péage. Tous les frais de péage sont inclus dans notre prix de transfert, vous n'aurez donc à gérer aucun paiement pendant le trajet."
+        },
+        "rush-hour-timing": {
+          "question": "Faut-il éviter les heures de pointe pour ce transfert ?",
+          "answer": "Les embouteillages peuvent se produire aux abords de Casablanca et Rabat pendant les heures de pointe. Si l'horaire est flexible, partir entre 9h30 et 16h00 assure généralement le trajet le plus fluide."
+        },
+        "round-trip-option": {
+          "question": "Proposez-vous des transferts aller-retour ?",
+          "answer": "Oui, nous offrons des tarifs aller-retour réduits pour des retours le même jour ou sur plusieurs jours entre Casablanca et Rabat. C'est particulièrement populaire auprès des clients d'affaires."
+        }
+      }
+    },
+    "fez-to-chefchaouen": {
+      "name": "Fès à Chefchaouen",
+      "description": "Le trajet de 210 kilomètres de Fès à Chefchaouen traverse le cœur agricole du nord du Maroc avant de monter dans les montagnes du Rif. En environ 4 heures, le paysage se transforme des plaines dorées autour de Fès aux vallées verdoyantes et aux rues bleues de l'une des villes de montagne les plus enchanteresses du Maroc.",
+      "meta": {
+        "title": "Fès à Chefchaouen — Transfert Privé à Travers les Montagnes du Rif",
+        "description": "Transfert chauffeur privé de Fès à Chefchaouen. 210 km à travers la campagne du nord du Maroc et les montagnes du Rif vers la Perle Bleue."
+      },
+      "highlights": {
+        "countryside-landscapes": "Traversez les terres agricoles fertiles des régions du Gharb et d'Ouazzane, où oliviers et champs de blé colorent le paysage.",
+        "rif-mountains-entry": "Entrez dans les montagnes du Rif par des vallées boisées, où l'air fraîchit et le paysage devient de plus en plus spectaculaire.",
+        "blue-pearl-arrival": "Arrivez à Chefchaouen lorsque sa médina peinte en bleu apparaît sur fond de pics montagneux jumeaux."
+      },
+      "suggestedStops": {
+        "ouazzane-town": "Ville d'Ouazzane",
+        "dardara-viewpoint": "Point de Vue Montagne Dardara"
+      },
+      "faq": {
+        "road-conditions": {
+          "question": "Quelles sont les conditions routières sur cet itinéraire ?",
+          "answer": "La route de Fès à Chefchaouen est entièrement goudronnée et généralement en bon état. La première moitié est relativement plate à travers la campagne agricole, tandis que la seconde moitié comporte des virages de montagne. Nos chauffeurs sont parfaitement expérimentés sur les deux sections."
+        },
+        "scenic-route-option": {
+          "question": "Existe-t-il un itinéraire alternatif plus panoramique ?",
+          "answer": "L'itinéraire standard via Ouazzane est lui-même assez panoramique. Pour une option plus longue mais tout aussi belle, vous pouvez passer par Meknès et les contreforts du Moyen Atlas. Discutez des options avec votre chauffeur."
+        },
+        "one-way-pricing": {
+          "question": "Le transfert est-il facturé aller simple ?",
+          "answer": "Oui, tous nos transferts interurbains sont indiqués par direction. Si vous avez besoin d'un retour de Chefchaouen à Fès, nous offrons un tarif aller-retour réduit. Vous pouvez aussi continuer vers Tanger au lieu de revenir à Fès."
+        }
+      }
+    },
+    "marrakech-to-casablanca-airport": {
+      "name": "Marrakech à Aéroport de Casablanca",
+      "description": "Le transfert de 220 kilomètres de Marrakech à l'aéroport international Mohammed V est une connexion essentielle pour les voyageurs dont les vols internationaux partent de Casablanca. Ce trajet autoroutier de 2,5 heures vous assure d'atteindre le principal hub international du Maroc avec amplement de temps.",
+      "meta": {
+        "title": "Marrakech à Aéroport de Casablanca — Transfert Aéroport Privé",
+        "description": "Transfert chauffeur privé de Marrakech à l'aéroport Mohammed V de Casablanca. 220 km de transfert autoroutier avec suivi des vols et assistance bagages."
+      },
+      "highlights": {
+        "express-highway": "Voyagez sur l'autoroute à péage A7, la première autoroute du Maroc, offrant une connexion rapide et fluide.",
+        "comfortable-transfer": "Détendez-vous dans un véhicule premium avec des rafraîchissements pendant que votre chauffeur gère l'ensemble du trajet.",
+        "airport-drop-off": "Arrivez directement à votre terminal de départ avec assistance bagages et du temps pour l'enregistrement."
+      },
+      "suggestedStops": {
+        "settat-rest-area": "Services Autoroutiers de Settat",
+        "berrechid-services": "Aire de Repos de Berrechid"
+      },
+      "faq": {
+        "flight-monitoring": {
+          "question": "Suivez-vous mon vol de départ ?",
+          "answer": "Oui, nous suivons le statut de votre vol pour prendre en compte tout changement d'horaire. Nous calculons votre heure de prise en charge en fonction de votre départ, du temps d'enregistrement recommandé et des conditions de circulation."
+        },
+        "early-morning-pickup": {
+          "question": "Pouvez-vous prendre en charge très tôt le matin ?",
+          "answer": "Absolument. De nombreux vols internationaux depuis Casablanca partent tôt le matin. Nos chauffeurs sont disponibles pour des prises en charge à toute heure, y compris les départs à 3h00 ou 4h00 depuis Marrakech."
+        },
+        "luggage-assistance": {
+          "question": "Mon chauffeur m'aidera-t-il avec les bagages à l'aéroport ?",
+          "answer": "Oui, votre chauffeur s'occupe de tous les bagages depuis votre hôtel de Marrakech jusqu'au terminal aéroport. Il vous escortera jusqu'à la zone d'enregistrement et s'assurera que vous êtes installé avant de partir."
+        }
+      }
+    },
+    "agadir-to-essaouira": {
+      "name": "Agadir à Essaouira",
+      "description": "Le trajet côtier de 175 kilomètres d'Agadir à Essaouira suit le littoral atlantique à travers des villages de pêcheurs, des villes de surf et les célèbres forêts d'arganiers où les chèvres grimpent aux arbres. Ce trajet panoramique de 2,5 heures offre une alternative belle et relaxante à l'approche plus courante depuis Marrakech.",
+      "meta": {
+        "title": "Agadir à Essaouira — Transfert Côtier Privé",
+        "description": "Transfert chauffeur privé d'Agadir à Essaouira le long de la côte atlantique. 175 km de route côtière panoramique à travers les forêts d'arganiers et les villages de pêcheurs."
+      },
+      "highlights": {
+        "coastal-road-scenery": "Suivez le littoral atlantique accidenté vers le nord, passant par des falaises spectaculaires, des criques sablonneuses et les célèbres plages de surf de Taghazout.",
+        "argan-tree-goats": "Observez le spectacle remarquable des chèvres perchées dans les arganiers, un phénomène unique à cette région du Maroc.",
+        "fishing-villages": "Traversez des villages de pêcheurs traditionnels où des bateaux colorés bordent le rivage et la prise fraîche est vendue au quai."
+      },
+      "suggestedStops": {
+        "taghazout-beach": "Plage et Village de Surf de Taghazout",
+        "argan-cooperative": "Coopérative d'Huile d'Argan"
+      },
+      "faq": {
+        "coastal-road-conditions": {
+          "question": "Comment est la route côtière ?",
+          "answer": "La route d'Agadir à Essaouira est une autoroute à deux voies bien entretenue qui longe la côte de près. La conduite est agréable avec de légères courbes et d'excellentes surfaces."
+        },
+        "photo-opportunities": {
+          "question": "Y a-t-il de bons arrêts photo le long de cet itinéraire ?",
+          "answer": "Cet itinéraire est exceptionnel pour la photographie. Les points forts comprennent les plages de surf de Taghazout, les chèvres dans les arganiers, les panoramas océaniques depuis les falaises et les villages de pêcheurs traditionnels."
+        },
+        "return-same-day": {
+          "question": "Puis-je faire une excursion d'une journée d'Agadir à Essaouira ?",
+          "answer": "Oui, une excursion d'une journée d'Agadir à Essaouira est très populaire. Avec un départ matinal, vous aurez amplement de temps pour explorer la médina d'Essaouira, déjeuner au port et revenir à Agadir en soirée."
+        }
+      }
+    },
+    "tangier-to-fez": {
+      "name": "Tanger à Fès",
+      "description": "Le trajet de 300 kilomètres de Tanger à Fès relie la porte nord du Maroc à sa capitale spirituelle et culturelle. En environ 3,5 heures, vous traversez les paysages variés du nord du Maroc, des collines méditerranéennes autour de Tanger aux plaines agricoles jusqu'aux murs anciens de Fès.",
+      "meta": {
+        "title": "Tanger à Fès — Transfert Privé à Travers le Nord du Maroc",
+        "description": "Transfert chauffeur privé de Tanger à Fès. 300 km à travers le nord du Maroc avec arrêts optionnels à Chefchaouen, Meknès et Volubilis."
+      },
+      "highlights": {
+        "rif-mountain-drive": "Traversez les contreforts des montagnes du Rif, avec des collines verdoyantes et des établissements ruraux dispersés.",
+        "meknès-countryside": "Traversez le cœur agricole autour de Meknès, où vignobles et oliveraies peignent le paysage.",
+        "imperial-city-arrival": "Arrivez aux portes anciennes de Fès, où la plus grande médina piétonne du monde vous attend derrière des murs imposants."
+      },
+      "suggestedStops": {
+        "chefchaouen-detour": "Chefchaouen (détour panoramique)",
+        "volubilis-ruins": "Ruines Romaines de Volubilis"
+      },
+      "faq": {
+        "highway-vs-scenic": {
+          "question": "Faut-il prendre l'autoroute ou la route panoramique ?",
+          "answer": "L'autoroute A2 est l'option la plus rapide en environ 3 à 3,5 heures. Pour une expérience plus panoramique, nous pouvons passer par Chefchaouen et les montagnes du Rif, ajoutant environ 2 heures mais vous récompensant avec des paysages de montagne spectaculaires."
+        },
+        "meknes-stop": {
+          "question": "Puis-je m'arrêter à Meknès en chemin vers Fès ?",
+          "answer": "Absolument. Meknès est directement sur l'itinéraire et mérite un arrêt pour voir la grande porte Bab Mansour et le Mausolée de Moulay Ismaïl. À proximité, les ruines romaines de Volubilis sont également un excellent ajout."
+        },
+        "travel-duration": {
+          "question": "Combien de temps dure le transfert Tanger-Fès ?",
+          "answer": "L'itinéraire direct par l'autoroute prend environ 3 à 3,5 heures. Avec des arrêts à Meknès et Volubilis, comptez 5 à 6 heures. Si vous passez par Chefchaouen, le voyage devient une expérience d'une journée entière."
+        }
+      }
+    }
   }
 }
