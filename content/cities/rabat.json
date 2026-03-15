@@ -1,11 +1,44 @@
 {
   "slug": "rabat",
   "tier": 2,
-  "airport": { "code": "RBA", "distanceKm": 10, "driveMinutes": [15, 25] },
-  "landmarks": ["hassan-tower", "kasbah-udayas", "chellah", "mohammed-v-mausoleum"],
-  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation", "vip-concierge"],
-  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter"],
-  "routesFrom": ["casablanca-to-rabat"],
-  "faqKeys": ["airport-distance", "government-district", "english-speaking", "historical-sites"],
-  "heroImage": "/images/cities/rabat-hero.jpg"
+  "airport": {
+    "code": "RBA",
+    "distanceKm": 10,
+    "driveMinutes": [
+      15,
+      25
+    ]
+  },
+  "landmarks": [
+    "hassan-tower",
+    "kasbah-udayas",
+    "chellah",
+    "mohammed-v-mausoleum"
+  ],
+  "availableServices": [
+    "airport-transfers",
+    "hourly-chauffeur",
+    "city-to-city-transfers",
+    "multi-day-tours",
+    "event-transportation",
+    "vip-concierge"
+  ],
+  "availableVehicles": [
+    "sedan",
+    "luxury-sedan",
+    "suv",
+    "luxury-suv",
+    "mercedes-v-class",
+    "sprinter"
+  ],
+  "routesFrom": [
+    "casablanca-to-rabat"
+  ],
+  "faqKeys": [
+    "airport-distance",
+    "government-district",
+    "english-speaking",
+    "historical-sites"
+  ],
+  "heroImage": "/images/cities/rabat-hero.svg"
 }

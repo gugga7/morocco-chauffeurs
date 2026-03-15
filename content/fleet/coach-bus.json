@@ -3,7 +3,17 @@
   "category": "coach",
   "capacity": 45,
   "luggageCapacity": 45,
-  "features": ["reclining-seats", "climate-control", "pa-system", "luggage-compartment", "onboard-restroom"],
-  "availableServices": ["airport-transfers", "city-to-city-transfers", "event-transportation"],
-  "heroImage": "/images/fleet/coach-bus-hero.jpg"
+  "features": [
+    "reclining-seats",
+    "climate-control",
+    "pa-system",
+    "luggage-compartment",
+    "onboard-restroom"
+  ],
+  "availableServices": [
+    "airport-transfers",
+    "city-to-city-transfers",
+    "event-transportation"
+  ],
+  "heroImage": "/images/fleet/coach-bus-hero.svg"
 }

@@ -1,8 +1,31 @@
 {
   "slug": "airport-transfers",
   "icon": "Plane",
-  "availableCities": ["marrakech", "casablanca", "fez", "tangier", "rabat", "agadir", "essaouira", "chefchaouen", "merzouga"],
-  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter", "minibus", "coach-bus"],
-  "faqKeys": ["booking-advance", "flight-tracking", "meet-and-greet"],
-  "heroImage": "/images/services/airport-transfers-hero.jpg"
+  "availableCities": [
+    "marrakech",
+    "casablanca",
+    "fez",
+    "tangier",
+    "rabat",
+    "agadir",
+    "essaouira",
+    "chefchaouen",
+    "merzouga"
+  ],
+  "availableVehicles": [
+    "sedan",
+    "luxury-sedan",
+    "suv",
+    "luxury-suv",
+    "mercedes-v-class",
+    "sprinter",
+    "minibus",
+    "coach-bus"
+  ],
+  "faqKeys": [
+    "booking-advance",
+    "flight-tracking",
+    "meet-and-greet"
+  ],
+  "heroImage": "/images/services/airport-transfers-hero.svg"
 }

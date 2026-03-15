@@ -1,11 +1,44 @@
 {
   "slug": "agadir",
   "tier": 2,
-  "airport": { "code": "AGA", "distanceKm": 25, "driveMinutes": [25, 35] },
-  "landmarks": ["agadir-beach", "souss-massa-park", "kasbah-agadir", "agadir-airport"],
-  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation", "vip-concierge"],
-  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter"],
-  "routesFrom": ["agadir-to-essaouira"],
-  "faqKeys": ["airport-distance", "beach-resorts", "english-speaking", "coastal-tours"],
-  "heroImage": "/images/cities/agadir-hero.jpg"
+  "airport": {
+    "code": "AGA",
+    "distanceKm": 25,
+    "driveMinutes": [
+      25,
+      35
+    ]
+  },
+  "landmarks": [
+    "agadir-beach",
+    "souss-massa-park",
+    "kasbah-agadir",
+    "agadir-airport"
+  ],
+  "availableServices": [
+    "airport-transfers",
+    "hourly-chauffeur",
+    "city-to-city-transfers",
+    "multi-day-tours",
+    "event-transportation",
+    "vip-concierge"
+  ],
+  "availableVehicles": [
+    "sedan",
+    "luxury-sedan",
+    "suv",
+    "luxury-suv",
+    "mercedes-v-class",
+    "sprinter"
+  ],
+  "routesFrom": [
+    "agadir-to-essaouira"
+  ],
+  "faqKeys": [
+    "airport-distance",
+    "beach-resorts",
+    "english-speaking",
+    "coastal-tours"
+  ],
+  "heroImage": "/images/cities/agadir-hero.svg"
 }

@@ -3,7 +3,20 @@
   "category": "luxury-suv",
   "capacity": 4,
   "luggageCapacity": 4,
-  "features": ["premium-leather", "massage-seats", "wifi", "champagne-service", "all-terrain"],
-  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation", "vip-concierge"],
-  "heroImage": "/images/fleet/luxury-suv-hero.jpg"
+  "features": [
+    "premium-leather",
+    "massage-seats",
+    "wifi",
+    "champagne-service",
+    "all-terrain"
+  ],
+  "availableServices": [
+    "airport-transfers",
+    "hourly-chauffeur",
+    "city-to-city-transfers",
+    "multi-day-tours",
+    "event-transportation",
+    "vip-concierge"
+  ],
+  "heroImage": "/images/fleet/luxury-suv-hero.svg"
 }

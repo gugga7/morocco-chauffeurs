@@ -3,7 +3,18 @@
   "category": "minibus",
   "capacity": 20,
   "luggageCapacity": 20,
-  "features": ["reclining-seats", "climate-control", "pa-system", "luggage-compartment", "usb-charging"],
-  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "event-transportation"],
-  "heroImage": "/images/fleet/minibus-hero.jpg"
+  "features": [
+    "reclining-seats",
+    "climate-control",
+    "pa-system",
+    "luggage-compartment",
+    "usb-charging"
+  ],
+  "availableServices": [
+    "airport-transfers",
+    "hourly-chauffeur",
+    "city-to-city-transfers",
+    "event-transportation"
+  ],
+  "heroImage": "/images/fleet/minibus-hero.svg"
 }

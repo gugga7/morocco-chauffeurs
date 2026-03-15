@@ -2,10 +2,35 @@
   "slug": "merzouga",
   "tier": 2,
   "airport": null,
-  "landmarks": ["erg-chebbi-dunes", "gnawa-village", "dayet-srji-lake"],
-  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation", "vip-concierge"],
-  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter"],
-  "routesFrom": ["marrakech-to-merzouga"],
-  "faqKeys": ["nearest-airport", "desert-conditions", "english-speaking", "camel-trekking"],
-  "heroImage": "/images/cities/merzouga-hero.jpg"
+  "landmarks": [
+    "erg-chebbi-dunes",
+    "gnawa-village",
+    "dayet-srji-lake"
+  ],
+  "availableServices": [
+    "airport-transfers",
+    "hourly-chauffeur",
+    "city-to-city-transfers",
+    "multi-day-tours",
+    "event-transportation",
+    "vip-concierge"
+  ],
+  "availableVehicles": [
+    "sedan",
+    "luxury-sedan",
+    "suv",
+    "luxury-suv",
+    "mercedes-v-class",
+    "sprinter"
+  ],
+  "routesFrom": [
+    "marrakech-to-merzouga"
+  ],
+  "faqKeys": [
+    "nearest-airport",
+    "desert-conditions",
+    "english-speaking",
+    "camel-trekking"
+  ],
+  "heroImage": "/images/cities/merzouga-hero.svg"
 }

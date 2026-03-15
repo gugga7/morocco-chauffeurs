@@ -1,8 +1,33 @@
 {
   "slug": "multi-day-tours",
   "icon": "Map",
-  "availableCities": ["marrakech", "casablanca", "fez", "tangier", "rabat", "agadir", "essaouira", "chefchaouen", "merzouga", "meknes", "ouarzazate", "ifrane", "el-jadida"],
-  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter"],
-  "faqKeys": ["itinerary-customization", "driver-accommodation", "cancellation-policy"],
-  "heroImage": "/images/services/multi-day-tours-hero.jpg"
+  "availableCities": [
+    "marrakech",
+    "casablanca",
+    "fez",
+    "tangier",
+    "rabat",
+    "agadir",
+    "essaouira",
+    "chefchaouen",
+    "merzouga",
+    "meknes",
+    "ouarzazate",
+    "ifrane",
+    "el-jadida"
+  ],
+  "availableVehicles": [
+    "sedan",
+    "luxury-sedan",
+    "suv",
+    "luxury-suv",
+    "mercedes-v-class",
+    "sprinter"
+  ],
+  "faqKeys": [
+    "itinerary-customization",
+    "driver-accommodation",
+    "cancellation-policy"
+  ],
+  "heroImage": "/images/services/multi-day-tours-hero.svg"
 }

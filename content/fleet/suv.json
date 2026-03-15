@@ -3,7 +3,19 @@
   "category": "suv",
   "capacity": 5,
   "luggageCapacity": 5,
-  "features": ["leather-seats", "climate-control", "wifi", "bottled-water", "all-terrain"],
-  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation"],
-  "heroImage": "/images/fleet/suv-hero.jpg"
+  "features": [
+    "leather-seats",
+    "climate-control",
+    "wifi",
+    "bottled-water",
+    "all-terrain"
+  ],
+  "availableServices": [
+    "airport-transfers",
+    "hourly-chauffeur",
+    "city-to-city-transfers",
+    "multi-day-tours",
+    "event-transportation"
+  ],
+  "heroImage": "/images/fleet/suv-hero.svg"
 }

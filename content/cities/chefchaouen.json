@@ -2,10 +2,37 @@
   "slug": "chefchaouen",
   "tier": 2,
   "airport": null,
-  "landmarks": ["blue-medina", "ras-el-maa", "spanish-mosque", "kasbah-chefchaouen"],
-  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation", "vip-concierge"],
-  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter"],
-  "routesFrom": ["tangier-to-chefchaouen", "fez-to-chefchaouen"],
-  "faqKeys": ["nearest-airport", "mountain-roads", "english-speaking", "photography-tours"],
-  "heroImage": "/images/cities/chefchaouen-hero.jpg"
+  "landmarks": [
+    "blue-medina",
+    "ras-el-maa",
+    "spanish-mosque",
+    "kasbah-chefchaouen"
+  ],
+  "availableServices": [
+    "airport-transfers",
+    "hourly-chauffeur",
+    "city-to-city-transfers",
+    "multi-day-tours",
+    "event-transportation",
+    "vip-concierge"
+  ],
+  "availableVehicles": [
+    "sedan",
+    "luxury-sedan",
+    "suv",
+    "luxury-suv",
+    "mercedes-v-class",
+    "sprinter"
+  ],
+  "routesFrom": [
+    "tangier-to-chefchaouen",
+    "fez-to-chefchaouen"
+  ],
+  "faqKeys": [
+    "nearest-airport",
+    "mountain-roads",
+    "english-speaking",
+    "photography-tours"
+  ],
+  "heroImage": "/images/cities/chefchaouen-hero.svg"
 }

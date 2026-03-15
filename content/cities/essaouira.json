@@ -2,10 +2,37 @@
   "slug": "essaouira",
   "tier": 2,
   "airport": null,
-  "landmarks": ["essaouira-medina", "mogador-island", "skala-port", "argan-forest"],
-  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation", "vip-concierge"],
-  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter"],
-  "routesFrom": ["marrakech-to-essaouira", "agadir-to-essaouira"],
-  "faqKeys": ["nearest-airport", "wind-season", "english-speaking", "medina-tours"],
-  "heroImage": "/images/cities/essaouira-hero.jpg"
+  "landmarks": [
+    "essaouira-medina",
+    "mogador-island",
+    "skala-port",
+    "argan-forest"
+  ],
+  "availableServices": [
+    "airport-transfers",
+    "hourly-chauffeur",
+    "city-to-city-transfers",
+    "multi-day-tours",
+    "event-transportation",
+    "vip-concierge"
+  ],
+  "availableVehicles": [
+    "sedan",
+    "luxury-sedan",
+    "suv",
+    "luxury-suv",
+    "mercedes-v-class",
+    "sprinter"
+  ],
+  "routesFrom": [
+    "marrakech-to-essaouira",
+    "agadir-to-essaouira"
+  ],
+  "faqKeys": [
+    "nearest-airport",
+    "wind-season",
+    "english-speaking",
+    "medina-tours"
+  ],
+  "heroImage": "/images/cities/essaouira-hero.svg"
 }

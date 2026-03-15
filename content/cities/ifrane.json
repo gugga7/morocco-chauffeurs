@@ -2,10 +2,28 @@
   "slug": "ifrane",
   "tier": 3,
   "airport": null,
-  "landmarks": ["cedar-forest", "ifrane-lake", "lion-statue"],
-  "availableServices": ["hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation"],
-  "availableVehicles": ["sedan", "suv", "mercedes-v-class", "sprinter"],
+  "landmarks": [
+    "cedar-forest",
+    "ifrane-lake",
+    "lion-statue"
+  ],
+  "availableServices": [
+    "hourly-chauffeur",
+    "city-to-city-transfers",
+    "multi-day-tours",
+    "event-transportation"
+  ],
+  "availableVehicles": [
+    "sedan",
+    "suv",
+    "mercedes-v-class",
+    "sprinter"
+  ],
   "routesFrom": [],
-  "faqKeys": ["best-time-to-visit", "skiing-season", "what-to-see"],
-  "heroImage": "/images/cities/ifrane-hero.jpg"
+  "faqKeys": [
+    "best-time-to-visit",
+    "skiing-season",
+    "what-to-see"
+  ],
+  "heroImage": "/images/cities/ifrane-hero.svg"
 }

@@ -1,11 +1,47 @@
 {
   "slug": "fez",
   "tier": 1,
-  "airport": { "code": "FEZ", "distanceKm": 15, "driveMinutes": [20, 30] },
-  "landmarks": ["fez-el-bali", "bou-inania-madrasa", "chouara-tannery", "royal-palace-fez", "fez-saiss-airport"],
-  "availableServices": ["airport-transfers", "hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation", "vip-concierge"],
-  "availableVehicles": ["sedan", "luxury-sedan", "suv", "luxury-suv", "mercedes-v-class", "sprinter", "minibus", "coach-bus"],
-  "routesFrom": ["fez-to-chefchaouen"],
-  "faqKeys": ["airport-distance", "medina-access", "english-speaking", "cultural-tours"],
-  "heroImage": "/images/cities/fez-hero.jpg"
+  "airport": {
+    "code": "FEZ",
+    "distanceKm": 15,
+    "driveMinutes": [
+      20,
+      30
+    ]
+  },
+  "landmarks": [
+    "fez-el-bali",
+    "bou-inania-madrasa",
+    "chouara-tannery",
+    "royal-palace-fez",
+    "fez-saiss-airport"
+  ],
+  "availableServices": [
+    "airport-transfers",
+    "hourly-chauffeur",
+    "city-to-city-transfers",
+    "multi-day-tours",
+    "event-transportation",
+    "vip-concierge"
+  ],
+  "availableVehicles": [
+    "sedan",
+    "luxury-sedan",
+    "suv",
+    "luxury-suv",
+    "mercedes-v-class",
+    "sprinter",
+    "minibus",
+    "coach-bus"
+  ],
+  "routesFrom": [
+    "fez-to-chefchaouen"
+  ],
+  "faqKeys": [
+    "airport-distance",
+    "medina-access",
+    "english-speaking",
+    "cultural-tours"
+  ],
+  "heroImage": "/images/cities/fez-hero.svg"
 }

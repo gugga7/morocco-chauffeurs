@@ -2,10 +2,30 @@
   "slug": "ouarzazate",
   "tier": 3,
   "airport": null,
-  "landmarks": ["ait-benhaddou", "atlas-studios", "taourirt-kasbah"],
-  "availableServices": ["hourly-chauffeur", "city-to-city-transfers", "multi-day-tours", "event-transportation"],
-  "availableVehicles": ["sedan", "suv", "mercedes-v-class", "sprinter"],
-  "routesFrom": ["marrakech-to-ouarzazate"],
-  "faqKeys": ["film-studios", "desert-gateway", "what-to-see"],
-  "heroImage": "/images/cities/ouarzazate-hero.jpg"
+  "landmarks": [
+    "ait-benhaddou",
+    "atlas-studios",
+    "taourirt-kasbah"
+  ],
+  "availableServices": [
+    "hourly-chauffeur",
+    "city-to-city-transfers",
+    "multi-day-tours",
+    "event-transportation"
+  ],
+  "availableVehicles": [
+    "sedan",
+    "suv",
+    "mercedes-v-class",
+    "sprinter"
+  ],
+  "routesFrom": [
+    "marrakech-to-ouarzazate"
+  ],
+  "faqKeys": [
+    "film-studios",
+    "desert-gateway",
+    "what-to-see"
+  ],
+  "heroImage": "/images/cities/ouarzazate-hero.svg"
 }
