@@ -5,6 +5,8 @@ import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { locales, type Locale } from "@/i18n/config";
+import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
 import "../globals.css";
 
 const playfair = Playfair_Display({
@@ -62,7 +64,9 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <body className={`${playfair.variable} ${inter.variable} font-sans antialiased`}>
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <Header />
+          <main className="pt-16">{children}</main>
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
