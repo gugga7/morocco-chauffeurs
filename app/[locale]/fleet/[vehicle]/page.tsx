@@ -9,6 +9,8 @@ import { Breadcrumb } from "@/components/ui/breadcrumb";
 import { BookingPlaceholder } from "@/components/ui/booking-placeholder";
 import { CTASection } from "@/components/sections/cta-section";
 import { SectionHeader } from "@/components/ui/section-header";
+import { StructuredData } from "@/components/seo/structured-data";
+import { productSchema } from "@/lib/seo";
 import {
   Users,
   Briefcase,
@@ -92,8 +94,11 @@ export default async function FleetPage({
   // Get other vehicles
   const allVehicles = getAllVehicles().filter((v) => v.slug !== slug);
 
+  const vehicleDescription = tFleet(`${slug}.description`);
+
   return (
     <>
+      <StructuredData data={productSchema(vehicleName, vehicleDescription, vehicle.capacity)} />
       {/* Hero */}
       <section className="relative flex min-h-[50vh] items-end overflow-hidden pb-12">
         <div
@@ -115,7 +120,7 @@ export default async function FleetPage({
             {t("heroTitle", { vehicle: vehicleName })}
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-white/80 leading-relaxed">
-            {tFleet(`${slug}.description`)}
+            {vehicleDescription}
           </p>
         </div>
       </section>

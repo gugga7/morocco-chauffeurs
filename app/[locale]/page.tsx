@@ -7,10 +7,14 @@ import { FleetCarousel } from "@/components/sections/fleet-carousel";
 import { RoutesGrid } from "@/components/sections/routes-grid";
 import { Testimonials } from "@/components/sections/testimonials";
 import { CTASection } from "@/components/sections/cta-section";
+import { StructuredData } from "@/components/seo/structured-data";
+import { organizationSchema, websiteSchema } from "@/lib/seo";
 
 export default async function HomePage() {
   return (
     <>
+      <StructuredData data={organizationSchema()} />
+      <StructuredData data={websiteSchema()} />
       <Hero />
       <div className="relative z-10 -mt-16 px-4">
         <BookingPlaceholder />

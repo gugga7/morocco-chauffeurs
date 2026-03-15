@@ -12,6 +12,8 @@ import { KeyLocations } from "@/components/sections/key-locations";
 import { FaqAccordion } from "@/components/sections/faq-accordion";
 import { CTASection } from "@/components/sections/cta-section";
 import { SectionHeader } from "@/components/ui/section-header";
+import { StructuredData } from "@/components/seo/structured-data";
+import { localBusinessSchema, faqSchema } from "@/lib/seo";
 import {
   Plane,
   Route,
@@ -105,8 +107,13 @@ export default async function CityPage({
     city.availableVehicles.includes(v.slug)
   );
 
+  // Get service names for structured data
+  const serviceNames = city.availableServices.map((s) => tServices(`${s}.name`));
+
   return (
     <>
+      <StructuredData data={localBusinessSchema(cityName, serviceNames)} />
+      <StructuredData data={faqSchema(faqItems)} />
       {/* Hero */}
       <section className="relative flex min-h-[60vh] items-end overflow-hidden pb-12">
         <div

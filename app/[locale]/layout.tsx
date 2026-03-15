@@ -36,12 +36,21 @@ export async function generateMetadata({
   const messages = await getMessages({ locale });
   const meta = messages.metadata as { title: string; description: string };
 
+  const languages: Record<string, string> = {};
+  for (const loc of locales) {
+    languages[loc] = `https://moroccochauffeurs.com/${loc}`;
+  }
+  languages["x-default"] = "https://moroccochauffeurs.com/en";
+
   return {
     title: {
       default: meta.title,
       template: `%s | Morocco Chauffeurs`,
     },
     description: meta.description,
+    alternates: {
+      languages,
+    },
   };
 }
 

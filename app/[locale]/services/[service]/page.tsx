@@ -11,6 +11,8 @@ import { FaqAccordion } from "@/components/sections/faq-accordion";
 import { CTASection } from "@/components/sections/cta-section";
 import { SectionHeader } from "@/components/ui/section-header";
 import { MapPin } from "lucide-react";
+import { StructuredData } from "@/components/seo/structured-data";
+import { serviceSchema } from "@/lib/seo";
 
 export function generateStaticParams() {
   const services = getAllServices();
@@ -82,8 +84,12 @@ export default async function ServicePage({
     service.availableCities.includes(c.slug)
   );
 
+  const serviceDescription = tServices(`${slug}.description`);
+  const cityNames = serviceCities.map((c) => tCities(`${c.slug}.name`));
+
   return (
     <>
+      <StructuredData data={serviceSchema(serviceName, serviceDescription, cityNames)} />
       {/* Hero */}
       <section className="relative flex min-h-[50vh] items-end overflow-hidden pb-12">
         <div

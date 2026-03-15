@@ -10,6 +10,8 @@ import { BookingPlaceholder } from "@/components/ui/booking-placeholder";
 import { FaqAccordion } from "@/components/sections/faq-accordion";
 import { CTASection } from "@/components/sections/cta-section";
 import { SectionHeader } from "@/components/ui/section-header";
+import { StructuredData } from "@/components/seo/structured-data";
+import { touristTripSchema } from "@/lib/seo";
 import {
   MapPin,
   Clock,
@@ -105,8 +107,11 @@ export default async function RoutePage({
         r.destination === route.origin)
   );
 
+  const routeDescription = tRoutes(`${slug}.description`);
+
   return (
     <>
+      <StructuredData data={touristTripSchema(originName, destName, routeDescription)} />
       {/* Hero */}
       <section className="relative flex min-h-[50vh] items-end overflow-hidden bg-night pb-12">
         <div className="absolute inset-0 opacity-10">
@@ -126,7 +131,7 @@ export default async function RoutePage({
             {t("heroTitle", { origin: originName, destination: destName })}
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-white/80 leading-relaxed">
-            {tRoutes(`${slug}.description`)}
+            {routeDescription}
           </p>
         </div>
       </section>
