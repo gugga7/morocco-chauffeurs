@@ -27,12 +27,12 @@ export async function DestinationsGrid() {
               className="group relative overflow-hidden rounded-2xl aspect-[3/4] block"
             >
               <Image
-                src={`/images/cities/${slug}-hero.svg`}
+                src={`/images/cities/${slug}-hero.jpg`}
                 alt={tCities(`${slug}.name`)}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                unoptimized
+
               />
               <div className="absolute inset-0 bg-gradient-to-t from-night/80 via-night/20 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6">

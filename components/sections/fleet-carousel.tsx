@@ -23,7 +23,6 @@ export async function FleetCarousel() {
       <div className="overflow-x-auto pb-4">
         <div className="mx-auto flex max-w-7xl gap-6 px-4 sm:px-6 lg:px-8">
           {vehicles.map((vehicle) => {
-            const isSvg = vehicle.heroImage.endsWith(".svg");
             return (
               <Link
                 key={vehicle.slug}
@@ -37,7 +36,6 @@ export async function FleetCarousel() {
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="288px"
-                    unoptimized={isSvg}
                   />
                 </div>
                 <div className="p-5">
